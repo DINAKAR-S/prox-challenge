@@ -2,10 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ---- theme variables (RGB triplets for Tailwind's rgb(var(x) / a) pattern) ---- */
+:root {
+  --color-bg: 255 255 255;
+  --color-panel: 244 244 246;
+  --color-border: 224 224 229;
+  --color-text: 23 23 25;
+  --color-muted: 110 113 118;
+  --color-accent: 255 122 26;
+}
+.dark {
+  --color-bg: 10 10 11;
+  --color-panel: 21 21 23;
+  --color-border: 38 38 42;
+  --color-text: 232 230 225;
+  --color-muted: 154 157 159;
+  --color-accent: 255 122 26;
+}
+
 html,
 body {
-  background: #0d0f10;
-  color: #e8e6e1;
+  background: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
 }
 
 * {
@@ -16,50 +34,177 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #16191b;
+  background: rgb(var(--color-bg));
 }
 ::-webkit-scrollbar-thumb {
-  background: #2a2f32;
+  background: rgb(var(--color-border));
   border-radius: 6px;
 }
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--color-muted) / 0.4);
+}
 
+/* ---- status indicator ---- */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner-ring {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  border: 2px solid rgb(var(--color-accent) / 0.25);
+  border-top-color: rgb(var(--color-accent));
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes fadeSwap {
+  from {
+    opacity: 0;
+    transform: translateY(2px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes pulseOpacity {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.status-label {
+  animation: fadeSwap 0.3s ease, pulseOpacity 1.8s ease-in-out infinite;
+}
+
+/* ---- streaming cursor ---- */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.prose-manual.streaming > *:last-child::after {
+  content: "\258C";
+  display: inline-block;
+  margin-left: 2px;
+  color: rgb(var(--color-accent));
+  animation: blink 1s step-start infinite;
+}
+
+/* ---- prose ---- */
 .prose-manual :is(h1, h2, h3) {
-  color: #ff7a1a;
+  color: rgb(var(--color-accent));
   font-weight: 700;
   margin: 0.75em 0 0.35em;
 }
 .prose-manual p {
   margin: 0.5em 0;
+  line-height: 1.6;
+}
+.prose-manual ul {
+  list-style: disc;
+  margin: 0.5em 0 0.7em;
+  padding-left: 1.3em;
+}
+.prose-manual ol {
+  list-style: decimal;
+  margin: 0.5em 0 0.7em;
+  padding-left: 1.3em;
+}
+.prose-manual li {
+  margin: 0.28em 0;
+  padding-left: 0.15em;
   line-height: 1.55;
 }
-.prose-manual ul,
-.prose-manual ol {
-  margin: 0.4em 0 0.6em 1.4em;
+.prose-manual li::marker {
+  color: rgb(var(--color-accent));
+}
+.prose-manual li > ul,
+.prose-manual li > ol {
+  margin: 0.28em 0;
 }
 .prose-manual code {
-  background: #0d0f10;
-  border: 1px solid #2a2f32;
+  background: rgb(var(--color-panel));
+  border: 1px solid rgb(var(--color-border));
   padding: 0 4px;
   border-radius: 4px;
   font-size: 0.9em;
 }
+.prose-manual pre {
+  background: rgb(var(--color-panel));
+  border: 1px solid rgb(var(--color-border));
+  border-radius: 8px;
+  padding: 0.6em 0.8em;
+  overflow-x: auto;
+}
+.prose-manual pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
 .prose-manual table {
   border-collapse: collapse;
   width: 100%;
-  margin: 0.5em 0;
+  max-width: 100%;
+  margin: 0.6em 0;
+  font-size: 0.9em;
+  border: 1px solid rgb(var(--color-border));
+  border-radius: 8px;
+  overflow: hidden;
 }
 .prose-manual th,
 .prose-manual td {
-  border: 1px solid #2a2f32;
-  padding: 4px 8px;
-  font-size: 0.9em;
+  border: 1px solid rgb(var(--color-border));
+  padding: 6px 10px;
+  text-align: left;
 }
 .prose-manual th {
-  background: #1c2124;
+  background: rgb(var(--color-panel));
+  font-weight: 600;
 }
 .prose-manual a {
-  color: #ff7a1a;
+  color: rgb(var(--color-accent));
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 .prose-manual strong {
-  color: #fff;
+  color: rgb(var(--color-text));
+}
+
+/* ---- media that breaks out wider than the text column on large screens ---- */
+.media-breakout {
+  width: 100%;
+}
+@media (min-width: 1280px) {
+  .media-breakout {
+    width: 112%;
+    margin-left: -6%;
+    max-width: 64rem;
+  }
+}
+@media (min-width: 1536px) {
+  .media-breakout {
+    width: 122%;
+    margin-left: -11%;
+    max-width: 64rem;
+  }
+}
+@media (min-width: 1280px) {
+  .prose-manual table {
+    width: 112%;
+    margin-left: -6%;
+    max-width: 64rem;
+  }
+}
+@media (min-width: 1536px) {
+  .prose-manual table {
+    width: 122%;
+    margin-left: -11%;
+    max-width: 64rem;
+  }
 }
