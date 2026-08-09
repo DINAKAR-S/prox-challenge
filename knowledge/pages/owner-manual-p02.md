@@ -1,0 +1,52 @@
+---
+source: owner-manual
+page: 2
+topics: [table-of-contents, safety, warning-symbols, general-safety]
+---
+
+# Page 2 — Table of Contents / Warning Symbols / General Safety
+
+## Table of Contents
+| Section | Page |
+|---|---|
+| Safety | 2 |
+| Specifications | 7 |
+| Controls | 8 |
+| MIG/Flux-Cored Wire Welding | 10 |
+| TIG/Stick Welding | 24 |
+| Welding Tips | 34 |
+| Maintenance | 41 |
+| Parts List and Diagram | 46 |
+| Warranty | 48 |
+
+Note: the right-hand edge of manual pages carries a vertical section-navigation tab strip (visible on this page as: SAFETY, CONTROLS, WIRE, TIG/STICK, WELDING TIPS, MAINTENANCE) — a printed index tab, not diagram content; the current section is highlighted black.
+
+## WARNING SYMBOLS AND DEFINITIONS
+| Symbol | Meaning |
+|---|---|
+| (triangle with exclamation mark) — Safety alert symbol | This is the Safety alert symbol. It is used to alert you to potential personal injury hazards. Obey all Safety messages that follow this symbol to avoid possible injury or death. |
+| ⚠ DANGER | Indicates a hazardous situation which, if not avoided, will result in death or serious injury. |
+| ⚠ WARNING | Indicates a hazardous situation which, if not avoided, could result in death or serious injury. |
+| ⚠ CAUTION | Indicates a hazardous situation which, if not avoided, could result in minor or moderate injury. |
+| NOTICE / CAUTION (no triangle) | Addresses practices not related to personal injury. |
+
+## IMPORTANT SAFETY INFORMATION
+
+> **WARNING**
+> Read all Safety warnings and instructions.
+> Failure to follow the warnings and instructions may result in electric shock, fire and/or serious injury.
+> Save all warnings and instructions for future reference.
+
+### General Safety
+PROTECT yourself and others. Read and understand this information.
+
+1. **Before use, read and understand** manufacturer's instructions, Material Safety Data Sheets (MSDSs), employers Safety practices, and ANSI Z49.1.
+2. **Keep out of reach of children.** Keep children and bystanders away while operating.
+3. **Place the welder on a stable location before use.** If it falls while plugged in, severe injury, electric shock, or fire may result.
+4. **Do not overreach.** Keep proper footing and balance at all times.
+5. **Stay alert, watch what you are doing and use common sense when operating a welder.** Do not use a welder while you are tired or under the influence of drugs, alcohol or medication. *A moment of inattention while operating welders may result in serious personal injury.*
+6. **Avoid unintentional starting.** Make sure you are prepared to begin work before turning on the Welder.
+7. **Never leave the Welder unattended while energized.** Turn power off if you have to leave.
+8. **The warnings, precautions, and instructions discussed in this instruction manual cannot cover all possible conditions and situations that may occur.** It must be understood by the operator that common sense and caution are factors which cannot be built into this product, but must be supplied by the operator.
+
+Page 2 | For technical questions, please call 1-800-444-3353. | Item 57812

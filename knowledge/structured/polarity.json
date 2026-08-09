@@ -1,0 +1,128 @@
+[
+  {
+    "process": "Flux-Cored (Gasless) MIG",
+    "electrodeSocket": "Negative (-) Socket — Wire Feed Power Cable",
+    "groundSocket": "Positive (+) Socket — Ground Clamp Cable",
+    "polarityName": "DCEN (Direct Current Electrode Negative)",
+    "notes": "Plug Ground Clamp Cable into Positive (+) Socket. Plug Wire Feed Power Cable into Negative (-) Socket. Twist cables clockwise all the way to lock in place.",
+    "page": 13,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Solid Core (Gas Shielded) MIG",
+    "electrodeSocket": "Positive (+) Socket — Wire Feed Power Cable",
+    "groundSocket": "Negative (-) Socket — Ground Clamp Cable",
+    "polarityName": "DCEP (Direct Current Electrode Positive)",
+    "notes": "Plug Ground Clamp Cable into Negative (-) Socket. Plug Wire Feed Power Cable into Positive (+) Socket. Twist cables clockwise all the way to lock in place.",
+    "page": 14,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (solid wire w/ shielding gas, e.g. Stainless Tri-Mix)",
+    "electrodeSocket": "Positive (+)",
+    "groundSocket": "Negative (-)",
+    "polarityName": "DCEP (reverse polarity)",
+    "notes": "Shown on the Polarity/Gas control-panel screen for 'Stainless Tri-Mix' gas: ground-clamp icon under Negative socket, MIG-gun icon under Positive socket.",
+    "page": 20,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Spool Gun (optional, aluminum welding)",
+    "electrodeSocket": "Positive (+) — Wire Feed Power Cable",
+    "groundSocket": "Negative (-) — Ground Clamp Cable",
+    "polarityName": "DCEP (reverse polarity, same convention as standard MIG)",
+    "notes": "Ground Clamp Cable plugs into Negative Socket; Wire Feed Power Cable plugs into Positive Socket; both twisted clockwise to lock.",
+    "page": 17,
+    "source": "owner-manual"
+  },
+  {
+    "process": "TIG (DC)",
+    "electrodeSocket": "Negative (-) — TIG Torch Cable",
+    "groundSocket": "Positive (+) — Ground Clamp Cable",
+    "polarityName": "DCEN (straight polarity)",
+    "notes": "Ground Clamp Cable plugs into Positive Socket; TIG Torch Cable plugs into Negative Socket. Confirmed again on the TIG Polarity/Gas control-panel screen (page 30): Negative socket = TIG-torch icon, Positive socket = ground-clamp icon, '100% Argon'.",
+    "page": 24,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "electrodeSocket": "Positive (+) — Electrode Holder Cable",
+    "groundSocket": "Negative (-) — Ground Clamp Cable",
+    "polarityName": "DCEP (reverse polarity)",
+    "notes": "Ground Clamp Cable plugs into Negative Socket; Electrode Holder Cable plugs into Positive Socket. Confirmed again on the Stick Polarity control-panel screen (page 32): Negative socket = ground-clamp icon, Positive socket = electrode-holder icon, 'No Gas Required'.",
+    "page": 27,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG welding",
+    "electrodeSocket": "",
+    "groundSocket": "",
+    "polarityName": "DCEP",
+    "notes": "Ensure polarity is correct for operation: DCEP for MIG welding.",
+    "page": 42,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Flux-Cored self-shielded welding",
+    "electrodeSocket": "",
+    "groundSocket": "",
+    "polarityName": "DCEN",
+    "notes": "Ensure polarity is correct for operation: DCEN for Flux-Cored self-shielded welding.",
+    "page": 42,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG",
+    "electrodeSocket": "",
+    "groundSocket": "",
+    "polarityName": "DCEP",
+    "notes": "Check the polarity and ensure it is DCEP for MIG (troubleshooting porosity in weld metal).",
+    "page": 43,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Flux-Cored",
+    "electrodeSocket": "",
+    "groundSocket": "",
+    "polarityName": "DCEN",
+    "notes": "Check the polarity and ensure it is DCEN for Flux-Cored (troubleshooting porosity in weld metal).",
+    "page": 43,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick (SMAW)",
+    "electrodeSocket": "positive terminal (electrode holder)",
+    "groundSocket": "negative terminal (ground clamp)",
+    "polarityName": null,
+    "notes": "Leave wire feed power disconnected.",
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "MIG (GMAW)",
+    "electrodeSocket": "positive terminal (wire feed power)",
+    "groundSocket": "negative terminal (ground clamp)",
+    "polarityName": null,
+    "notes": "Connect MIG gun to wire feed; connect wire feed control inside welder.",
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "Flux-Core (FCAW)",
+    "electrodeSocket": "negative terminal (wire feed power)",
+    "groundSocket": "positive terminal (ground clamp)",
+    "polarityName": null,
+    "notes": "Follow MIG cable setup but reverse: ground clamp to positive terminal, wire feed power to negative terminal.",
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "TIG (GTAW)",
+    "electrodeSocket": "negative terminal (TIG torch)",
+    "groundSocket": "positive terminal (ground clamp)",
+    "polarityName": null,
+    "notes": "Connect gas line to gas regulator; connect foot pedal inside welder; leave wire feed power disconnected.",
+    "page": 2,
+    "source": "quick-start-guide"
+  }
+]

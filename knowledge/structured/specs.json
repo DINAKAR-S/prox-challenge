@@ -1,0 +1,482 @@
+[
+  {
+    "name": "MIG Power Input",
+    "value": "120VAC/60Hz or 240VAC/60Hz",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Current Input at Output (120V)",
+    "value": "20.8A at 100A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Current Input at Output (240V)",
+    "value": "25.5A at 200A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Welding Current Range (120V)",
+    "value": "30-140A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Welding Current Range (240V)",
+    "value": "30-220A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Maximum OCV",
+    "value": "86VDC",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Weldable Materials",
+    "value": "Mild Steel, Stainless Steel, Aluminum (with optional Spool Gun)",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Welding Wire Capacity (Solid Core)",
+    "value": "0.025\"/0.030\"/0.035\"",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Welding Wire Capacity (Flux Cored)",
+    "value": "0.030\"/0.035\"/0.045\"",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Wire Speed",
+    "value": "50-500 IPM",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Wire Spool Capacity",
+    "value": "Up to 12 lb spool",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Power Input",
+    "value": "120VAC/60Hz or 240VAC/60Hz",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Welding Current Range (120V)",
+    "value": "10A-125A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Welding Current Range (240V)",
+    "value": "10A-175A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Maximum OCV",
+    "value": "86VDC",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Weldable Materials",
+    "value": "Mild Steel, Stainless Steel, Chrome Moly",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick Power Input",
+    "value": "120VAC/60Hz or 240VAC/60Hz",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick Welding Current Range (120V)",
+    "value": "10A-80A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick Welding Current Range (240V)",
+    "value": "10A-175A",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick Maximum OCV",
+    "value": "86VDC",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick Weldable Materials",
+    "value": "Mild Steel, Stainless Steel",
+    "page": 7,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Feed Roller — Solid Core V-Groove sizes",
+    "value": "0.030\"/0.035\" groove on one side, 0.025\" groove on the other side (reversible roller)",
+    "page": 12,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Feed Roller — Flux-Cored Knurled Groove sizes",
+    "value": "0.045\" groove on one side, 0.030\"/0.035\" groove on the other side (reversible roller)",
+    "page": 12,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Wire Feed Tensioner setting — solid wire",
+    "value": "3-5",
+    "page": 15,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Wire Feed Tensioner setting — flux-cored wire",
+    "value": "2-3 (too much force will crush flux-cored wire and may cause feeding issues)",
+    "page": 15,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Extension cord policy",
+    "value": "Do not use an extension cord on this welder",
+    "page": 6,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Replacement power cord policy",
+    "value": "Use only the supplied power cord or an identical replacement; do not install a thinner or longer cord; do not patch cords together",
+    "page": 6,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Fire safety clearance radius",
+    "value": "35 feet (10 meters) — clear/protect flammable objects around the work area",
+    "page": 4,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Arc eye protection minimum shade",
+    "value": "Number 10 shade lens rating (ANSI-approved)",
+    "page": 3,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Grounded receptacle requirement",
+    "value": "Connect to grounded, GFCI-protected power supply only; 120VAC receptacle must be 20 amp rated",
+    "page": 4,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Power Input plug orientation",
+    "value": "Plug will only fit Power Input Socket one way (keyed connector, accepts either 120VAC or 240VAC power cord)",
+    "page": 16,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Cold Wire Feed test length",
+    "value": "Press and hold Cold Wire Feed Switch until wire feeds through approximately 2 inches",
+    "page": 16,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Item / Model number",
+    "value": "Item 57812 — VULCAN OmniPro 220 Multiprocess Welding System",
+    "page": 1,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Compliance standard",
+    "value": "Conforms to ANSI/IEC Std. 60974-1",
+    "page": 14,
+    "source": "owner-manual"
+  },
+  {
+    "name": "IP rating (nameplate)",
+    "value": "IP21S",
+    "page": 14,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Model",
+    "value": "Vulcan OMNIPRO 220",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Item Number",
+    "value": "57812",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "UPC",
+    "value": "193175422590",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Standard Conformance",
+    "value": "ANSI/IEC Std. 60974-1",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "No-load voltage U0 (all processes)",
+    "value": "86V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG output range @ 240V input",
+    "value": "30A/15.5V to 220A/25V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG output range @ 120V input",
+    "value": "30A/15.5V to 140A/21V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick output range @ 240V input",
+    "value": "10A/20.4V to 175A/27V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Stick output range @ 120V input",
+    "value": "10A/20.4V to 80A/23.2V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG output range @ 240V input",
+    "value": "10A/10.4V to 175A/17V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG output range @ 120V input",
+    "value": "10A/10.4V to 125A/15V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input current I1max @ 240V (MIG / Stick / TIG)",
+    "value": "25.5A / 23.7A / 15.6A",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input current I1eff @ 240V (MIG / Stick / TIG)",
+    "value": "12.8A / 11.9A / 8.5A",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input current I1max @ 120V (MIG / Stick / TIG)",
+    "value": "20.8A / 19.5A / 20.6A",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input current I1eff @ 120V (MIG / Stick / TIG)",
+    "value": "13.1A / 12.3A / 13A",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Enclosure rating",
+    "value": "IP21S",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input frequency",
+    "value": "1~50/60Hz",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Power input voltage options",
+    "value": "U1 = 240V or U1 = 120V",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Contact Tip to Work Distance (CTWD) - MIG/wire",
+    "value": "up to 1/2\"",
+    "page": 22,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG Gun push/drag angle range",
+    "value": "0-15° from vertical",
+    "page": 22,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Butt weld joint gun angle",
+    "value": "90°",
+    "page": 22,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Fillet weld joint gun angle",
+    "value": "45°",
+    "page": 22,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG wire stickout after Contact Tip",
+    "value": "1/2\"",
+    "page": 17,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Tungsten Electrode ideal conical grind length",
+    "value": "2-1/2 times the electrode diameter",
+    "page": 26,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Tungsten Electrode protrusion beyond Ceramic Nozzle",
+    "value": "1/8\" to 1/4\"",
+    "page": 26,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG Electrode-to-workpiece arc distance",
+    "value": "1 to 1.5 times the diameter of the Electrode",
+    "page": 31,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG torch backward tilt during welding",
+    "value": "10-15 degrees from vertical",
+    "page": 31,
+    "source": "owner-manual"
+  },
+  {
+    "name": "MIG/Wire shielding gas flow rate",
+    "value": "20-30 SCFH",
+    "page": 20,
+    "source": "owner-manual"
+  },
+  {
+    "name": "TIG shielding gas flow rate",
+    "value": "10-25 SCFH",
+    "page": 30,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Power receptacle requirement",
+    "value": "GFCI protected, 120 VAC (20 amp rated) or 240 VAC receptacle matching the plug; circuit must have delayed action-type circuit breaker or fuses",
+    "page": 20,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Save Setting memory slots",
+    "value": "5",
+    "page": 21,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Shielding gas for TIG setup example",
+    "value": "100% Argon",
+    "page": 25,
+    "source": "owner-manual"
+  },
+  {
+    "name": "Input voltage options",
+    "value": "120 Volt or 240 Volt",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: uses cored wire",
+    "value": "Flux Cored: yes; MIG: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: uses solid wire",
+    "value": "MIG: yes; Flux Cored: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: uses shielding gas",
+    "value": "MIG: yes; Flux Cored: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: clean welds, minimal spatter",
+    "value": "MIG: yes; Flux Cored: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: welds over mill scale and rust",
+    "value": "Flux Cored: yes; MIG: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: requires minimal surface prep",
+    "value": "Flux Cored: yes; MIG: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: can be used outdoor in windy conditions",
+    "value": "Flux Cored: yes; MIG: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: deep weld penetration, handles material gaps well",
+    "value": "Flux Cored: yes; MIG: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "MIG vs Flux Cored: good for thin materials like sheet metal",
+    "value": "MIG: yes; Flux Cored: no",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "name": "Wire feed tension test dimension",
+    "value": "2\"-3\" bend of wire off a wood block when tension is correctly set",
+    "page": 1,
+    "source": "quick-start-guide"
+  },
+  {
+    "name": "Contact tip clearance dimension",
+    "value": "2\" (shown on nozzle/contact tip diagram)",
+    "page": 1,
+    "source": "quick-start-guide"
+  },
+  {
+    "name": "Model / SKU",
+    "value": "VULCAN OmniPro 220, item 57812",
+    "page": 1,
+    "source": "quick-start-guide"
+  }
+]

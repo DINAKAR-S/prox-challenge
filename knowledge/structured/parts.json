@@ -1,0 +1,368 @@
+[
+  {
+    "partNumber": "1",
+    "description": "Right Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "2",
+    "description": "Handle Base",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "3",
+    "description": "Handle Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "4",
+    "description": "Hinge-Right",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "5",
+    "description": "Hinge-left",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "6",
+    "description": "Left Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "7",
+    "description": "Latch",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "8",
+    "description": "Middle Bracket",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "9",
+    "description": "PFC Inductance",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "10",
+    "description": "Spool",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "11",
+    "description": "Remote Control PCB",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "12",
+    "description": "Wire Feeder",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "13",
+    "description": "Aviation Plug Wire",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "14",
+    "description": "Miller Plug Connector",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "15",
+    "description": "Protective Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "16",
+    "description": "Display PCB",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "17",
+    "description": "Screen Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "18",
+    "description": "Screen Frame",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "19",
+    "description": "MIG Welding Torch",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "20",
+    "description": "Front Handle Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "21",
+    "description": "Front Panel",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "22",
+    "description": "Display",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "23",
+    "description": "Knob",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "24",
+    "description": "Knob",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "25",
+    "description": "Storage Door",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "26",
+    "description": "Switch",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "27",
+    "description": "American Air Fitting",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "28",
+    "description": "Air Connector",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "29",
+    "description": "Quick Connector",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "30",
+    "description": "Grounding Clamp Assembly",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "31",
+    "description": "Welding Clamp Assembly",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "32",
+    "description": "Polarity Cable",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "33",
+    "description": "Output Inductor",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "34",
+    "description": "Air Connector",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "35",
+    "description": "Solenoid Valve",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "36",
+    "description": "Bottom Housing",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "37",
+    "description": "Board Insulation Paper",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "38",
+    "description": "Main PCB",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "39",
+    "description": "Control PCB",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "40",
+    "description": "Fast Recovery Diode",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "41",
+    "description": "Metal Case Air Way",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "42",
+    "description": "Rectifier Radiator Support Bar",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "43",
+    "description": "Rectifier Radiator",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "44",
+    "description": "Fan",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "45",
+    "description": "Transformer",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "46",
+    "description": "IGBT",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "47",
+    "description": "Bridge Rectifier Heatsink",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "48",
+    "description": "Fast Recovery Diode",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "49",
+    "description": "IGBT Heat Sink Support Bar",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "50",
+    "description": "IGBT Radiator",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "51",
+    "description": "Bridge Rectifiers",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "52",
+    "description": "IGBT Radiator",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "53",
+    "description": "Fan",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "54",
+    "description": "Y-Type Threaded Tee",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "55",
+    "description": "120 VAC Power Cord",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "56",
+    "description": "Rear Panel",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "57",
+    "description": "Rear Handle Cover",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "58",
+    "description": "American Power Socket",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "59",
+    "description": "Overload Protector",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "60",
+    "description": "Rear Panel",
+    "page": 46,
+    "source": "owner-manual"
+  },
+  {
+    "partNumber": "61",
+    "description": "240 VAC Power Cord",
+    "page": 46,
+    "source": "owner-manual"
+  }
+]

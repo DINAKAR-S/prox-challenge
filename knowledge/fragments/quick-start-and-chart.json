@@ -1,0 +1,254 @@
+{
+  "dutyCycle": [
+    {
+      "process": "example (unspecified process)",
+      "voltageInput": null,
+      "amps": 165,
+      "dutyCyclePercent": 30,
+      "page": 1,
+      "source": "selection-chart",
+      "notes": "Generic worked example illustrating the duty-cycle concept: 3 minutes welding, 7 minutes resting within a 10-minute period. Not tied to a specific process or the OmniPro 220's actual rated duty cycle on this page."
+    }
+  ],
+  "polarity": [
+    {
+      "process": "Stick (SMAW)",
+      "electrodeSocket": "positive terminal (electrode holder)",
+      "groundSocket": "negative terminal (ground clamp)",
+      "polarityName": null,
+      "notes": "Leave wire feed power disconnected.",
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "MIG (GMAW)",
+      "electrodeSocket": "positive terminal (wire feed power)",
+      "groundSocket": "negative terminal (ground clamp)",
+      "polarityName": null,
+      "notes": "Connect MIG gun to wire feed; connect wire feed control inside welder.",
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "Flux-Core (FCAW)",
+      "electrodeSocket": "negative terminal (wire feed power)",
+      "groundSocket": "positive terminal (ground clamp)",
+      "polarityName": null,
+      "notes": "Follow MIG cable setup but reverse: ground clamp to positive terminal, wire feed power to negative terminal.",
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "TIG (GTAW)",
+      "electrodeSocket": "negative terminal (TIG torch)",
+      "groundSocket": "positive terminal (ground clamp)",
+      "polarityName": null,
+      "notes": "Connect gas line to gas regulator; connect foot pedal inside welder; leave wire feed power disconnected.",
+      "page": 2,
+      "source": "quick-start-guide"
+    }
+  ],
+  "settings": [
+    {
+      "process": "Flux-Cored (FCAW)",
+      "material": "Steel, Stainless steel",
+      "thickness": "18 Gauge to 5/16\"",
+      "wireSize": null,
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": null,
+      "gas": "No gas required",
+      "notes": "Skill level: Low. Applications: galvanized steel, general fabrication, pipe and tubing, maintenance & repair. Weld result: more spatter. Uses cored wire; welds over mill scale and rust; requires minimal surface prep; usable outdoor in windy conditions; deep weld penetration, handles material gaps well.",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "process": "MIG (GMAW)",
+      "material": "Steel, Stainless steel, Aluminum (spool gun required)",
+      "thickness": "22 Gauge to 3/8\"",
+      "wireSize": null,
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": null,
+      "gas": "Gas required (indoor welding recommended)",
+      "notes": "Skill level: Low. Applications: sheet metal, automotive body, tubing, structural steel. Weld result: clean/minimal spatter. Uses solid wire; uses shielding gas; clean welds with minimal spatter; good for thin materials like sheet metal.",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "process": "Stick (SMAW)",
+      "material": "Steel, Stainless steel, Castings",
+      "thickness": "10 Gauge to 1/2\"",
+      "wireSize": null,
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": null,
+      "gas": "No gas required",
+      "notes": "Skill level: Moderate. Applications: pipe and tubing, structural steel, pressure vessels, maintenance & repair. Weld result: more spatter. Deep penetration; good choice for thicker materials.",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "process": "TIG (GTAW)",
+      "material": "Steel, Stainless steel, Chrome moly (DC TIG required); Aluminum, Magnesium alloys (AC TIG required)",
+      "thickness": "24 Gauge to 3/16\"",
+      "wireSize": null,
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": null,
+      "gas": "Gas required (indoor welding recommended)",
+      "notes": "Skill level: High. Applications: stainless steel exhausts, bicycle frames, thin wall pipe & tubing, metal art. Weld result: extremely clean. Highest quality welds, precise control.",
+      "page": 1,
+      "source": "selection-chart"
+    }
+  ],
+  "troubleshooting": [],
+  "specs": [
+    {
+      "name": "Input voltage options",
+      "value": "120 Volt or 240 Volt",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: uses cored wire",
+      "value": "Flux Cored: yes; MIG: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: uses solid wire",
+      "value": "MIG: yes; Flux Cored: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: uses shielding gas",
+      "value": "MIG: yes; Flux Cored: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: clean welds, minimal spatter",
+      "value": "MIG: yes; Flux Cored: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: welds over mill scale and rust",
+      "value": "Flux Cored: yes; MIG: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: requires minimal surface prep",
+      "value": "Flux Cored: yes; MIG: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: can be used outdoor in windy conditions",
+      "value": "Flux Cored: yes; MIG: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: deep weld penetration, handles material gaps well",
+      "value": "Flux Cored: yes; MIG: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "MIG vs Flux Cored: good for thin materials like sheet metal",
+      "value": "MIG: yes; Flux Cored: no",
+      "page": 1,
+      "source": "selection-chart"
+    },
+    {
+      "name": "Wire feed tension test dimension",
+      "value": "2\"-3\" bend of wire off a wood block when tension is correctly set",
+      "page": 1,
+      "source": "quick-start-guide"
+    },
+    {
+      "name": "Contact tip clearance dimension",
+      "value": "2\" (shown on nozzle/contact tip diagram)",
+      "page": 1,
+      "source": "quick-start-guide"
+    },
+    {
+      "name": "Model / SKU",
+      "value": "VULCAN OmniPro 220, item 57812",
+      "page": 1,
+      "source": "quick-start-guide"
+    }
+  ],
+  "safety": [
+    {
+      "warning": "To prevent serious injury, read manual warnings and instructions before use.",
+      "page": 1,
+      "source": "quick-start-guide"
+    },
+    {
+      "warning": "To prevent fire and serious injury, keep torch and wire clear of grounded objects while welder plugged in.",
+      "page": 1,
+      "source": "quick-start-guide"
+    }
+  ],
+  "setupSteps": [
+    {
+      "process": "Wire spool install & wire-feed check (MIG/Flux-Core, general power-on sequence)",
+      "steps": [
+        "Connect cables as needed for flux wire welding (see back of guide for process-specific cable setup).",
+        "Install wire spool. Insert wire through both feed guides and clamp it into feed mechanism. See manual if changing wire size or using solid wire.",
+        "Take off nozzle and tip, plug selected cord into welder and into wall, turn welder on, and press cold wire feed switch until wire comes out.",
+        "Incrementally tighten wire feed tension knob clockwise until wire will bend from feed tension at 2\"-3\".",
+        "Unplug welder and replace nozzle and tip.",
+        "Hold gun clear of workpiece, then plug in welder, turn it on, and set weld thickness and other settings."
+      ],
+      "page": 1,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "Stick (SMAW) cable setup",
+      "steps": [
+        "Connect ground clamp to negative terminal.",
+        "Connect electrode holder to positive terminal.",
+        "Leave wire feed power disconnected."
+      ],
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "MIG (GMAW) cable setup",
+      "steps": [
+        "Connect ground clamp to negative terminal.",
+        "Connect wire feed power to positive terminal.",
+        "Connect MIG gun to wire feed.",
+        "Connect wire feed control inside welder."
+      ],
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "Flux-Core (FCAW) cable setup",
+      "steps": [
+        "Follow MIG cable setup but connect ground clamp to positive terminal and wire feed power to negative terminal."
+      ],
+      "page": 2,
+      "source": "quick-start-guide"
+    },
+    {
+      "process": "TIG (GTAW) cable setup",
+      "steps": [
+        "Connect ground clamp to positive terminal.",
+        "Connect TIG torch to negative terminal.",
+        "Connect gas line to gas regulator.",
+        "Connect foot pedal inside welder.",
+        "Leave wire feed power disconnected."
+      ],
+      "page": 2,
+      "source": "quick-start-guide"
+    }
+  ]
+}

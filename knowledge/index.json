@@ -1,0 +1,721 @@
+[
+  {
+    "source": "owner-manual",
+    "page": 1,
+    "file": "pages/owner-manual-p01.md",
+    "topics": [
+      "cover",
+      "product-identification",
+      "warranty-notice"
+    ],
+    "summary": "Cover Page"
+  },
+  {
+    "source": "owner-manual",
+    "page": 2,
+    "file": "pages/owner-manual-p02.md",
+    "topics": [
+      "table-of-contents",
+      "safety",
+      "warning-symbols",
+      "general-safety"
+    ],
+    "summary": "Table of Contents / Warning Symbols / General Safety"
+  },
+  {
+    "source": "owner-manual",
+    "page": 3,
+    "file": "pages/owner-manual-p03.md",
+    "topics": [
+      "safety",
+      "fume-and-gas-safety",
+      "arc-ray-safety"
+    ],
+    "summary": "Fume and Gas Safety / Arc Ray Safety"
+  },
+  {
+    "source": "owner-manual",
+    "page": 4,
+    "file": "pages/owner-manual-p04.md",
+    "topics": [
+      "safety",
+      "electrical-safety",
+      "fire-safety"
+    ],
+    "summary": "Electrical Safety / Fire Safety"
+  },
+  {
+    "source": "owner-manual",
+    "page": 5,
+    "file": "pages/owner-manual-p05.md",
+    "topics": [
+      "safety",
+      "welder-use-and-care",
+      "maintenance",
+      "cylinder-safety"
+    ],
+    "summary": "Welder Use and Care / Maintenance / Cylinder Safety"
+  },
+  {
+    "source": "owner-manual",
+    "page": 6,
+    "file": "pages/owner-manual-p06.md",
+    "topics": [
+      "safety",
+      "grounding",
+      "extension-cords",
+      "replacement-cords",
+      "symbology"
+    ],
+    "summary": "Grounding / Extension Cords / Replacement Cords / Symbology"
+  },
+  {
+    "source": "owner-manual",
+    "page": 7,
+    "file": "pages/owner-manual-p07.md",
+    "topics": [
+      "specifications",
+      "mig",
+      "tig",
+      "stick",
+      "duty-cycle",
+      "power-input",
+      "ocv",
+      "wire-speed",
+      "weldable-materials"
+    ],
+    "summary": "Specifications (MIG, TIG, Stick)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 8,
+    "file": "pages/owner-manual-p08.md",
+    "topics": [
+      "controls",
+      "front-panel",
+      "lcd-display",
+      "sockets",
+      "power-switch"
+    ],
+    "summary": "Controls: Front Panel Controls"
+  },
+  {
+    "source": "owner-manual",
+    "page": 9,
+    "file": "pages/owner-manual-p09.md",
+    "topics": [
+      "controls",
+      "interior",
+      "wire-feed-mechanism",
+      "wire-spool",
+      "foot-pedal-socket"
+    ],
+    "summary": "Controls: Interior Controls"
+  },
+  {
+    "source": "owner-manual",
+    "page": 10,
+    "file": "pages/owner-manual-p10.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "wire-spool-installation",
+      "wire-setup",
+      "safety"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Wire Spool Installation/Wire Setup (1-2 lb)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 11,
+    "file": "pages/owner-manual-p11.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "wire-spool-installation",
+      "10-12lb-spool",
+      "feed-tensioner",
+      "idler-arm"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Wire Spool Installation (10-12 lb) / Feed Tensioner"
+  },
+  {
+    "source": "owner-manual",
+    "page": 12,
+    "file": "pages/owner-manual-p12.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "feed-roller",
+      "wire-size",
+      "v-groove",
+      "knurled-groove"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Feed Roller Instructions"
+  },
+  {
+    "source": "owner-manual",
+    "page": 13,
+    "file": "pages/owner-manual-p13.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "gun-cable-connector",
+      "wire-feed-control-cable",
+      "dcen",
+      "polarity",
+      "flux-cored-gasless"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Gun Cable Connector / DCEN Polarity Setup"
+  },
+  {
+    "source": "owner-manual",
+    "page": 14,
+    "file": "pages/owner-manual-p14.md",
+    "topics": [
+      "mig",
+      "solid-core",
+      "dcep",
+      "polarity",
+      "gas-cylinder-setup",
+      "regulator",
+      "nameplate",
+      "duty-cycle",
+      "rating-plate"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: DCEP Polarity Setup / Gas Cylinder Setup / Rating Nameplate"
+  },
+  {
+    "source": "owner-manual",
+    "page": 15,
+    "file": "pages/owner-manual-p15.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "wire-threading",
+      "feed-roller-tension",
+      "nozzle",
+      "contact-tip",
+      "stainless-steel-wire"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Wire Threading / Feed Tension / MIG Gun Prep"
+  },
+  {
+    "source": "owner-manual",
+    "page": 16,
+    "file": "pages/owner-manual-p16.md",
+    "topics": [
+      "mig",
+      "flux-cored",
+      "power-input-socket",
+      "power-cord",
+      "cold-wire-feed",
+      "danger-warning"
+    ],
+    "summary": "MIG/Flux-Cored Wire Welding: Power Cord / Power On / Cold Wire Feed"
+  },
+  {
+    "source": "owner-manual",
+    "page": 17,
+    "file": "pages/owner-manual-p17.md",
+    "topics": [
+      "wire-feed-tension",
+      "contact-tip",
+      "nozzle",
+      "spool-gun",
+      "mig-gun",
+      "spool-gun-setup"
+    ],
+    "summary": "Wire / Optional Spool Gun Setup"
+  },
+  {
+    "source": "owner-manual",
+    "page": 18,
+    "file": "pages/owner-manual-p18.md",
+    "topics": [
+      "basic-wire-welding",
+      "safety",
+      "ppe",
+      "flux-cored",
+      "mig",
+      "spool-gun-aluminum",
+      "power-switch"
+    ],
+    "summary": "Basic Wire Welding"
+  },
+  {
+    "source": "owner-manual",
+    "page": 19,
+    "file": "pages/owner-manual-p19.md",
+    "topics": [
+      "duty-cycle",
+      "setting-up-weld",
+      "ground-clamp",
+      "workpiece-prep",
+      "chamfer"
+    ],
+    "summary": "Duty Cycle (Duration of Use) / Setting Up The Weld"
+  },
+  {
+    "source": "owner-manual",
+    "page": 20,
+    "file": "pages/owner-manual-p20.md",
+    "topics": [
+      "power-cord",
+      "receptacle",
+      "control-panel",
+      "settings",
+      "wire-diameter",
+      "material-thickness",
+      "wire-feed-speed",
+      "voltage"
+    ],
+    "summary": "Wire: Power-up and Settings (Control Panel)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 21,
+    "file": "pages/owner-manual-p21.md",
+    "topics": [
+      "optional-settings",
+      "run-in-wfs",
+      "inductance",
+      "spot-timer",
+      "recall-setting",
+      "save-setting",
+      "shielding-gas",
+      "asphyxiation-warning",
+      "flow-gauge"
+    ],
+    "summary": "Wire: Optional Settings / Gas Shielded Setup"
+  },
+  {
+    "source": "owner-manual",
+    "page": 22,
+    "file": "pages/owner-manual-p22.md",
+    "topics": [
+      "welding-technique",
+      "stringer-bead",
+      "weave-bead",
+      "push-angle",
+      "drag-angle",
+      "ctwd",
+      "fillet-weld",
+      "butt-weld"
+    ],
+    "summary": "Basic Wire Welding Technique"
+  },
+  {
+    "source": "owner-manual",
+    "page": 23,
+    "file": "pages/owner-manual-p23.md",
+    "topics": [
+      "duty-cycle",
+      "warning-screen",
+      "shutdown-cooldown",
+      "respool-wire",
+      "gas-cylinder-shutdown",
+      "troubleshooting",
+      "lcd-fault-screen"
+    ],
+    "summary": "Wire: Post-Weld Inspection, Shutdown, Warning Screen"
+  },
+  {
+    "source": "owner-manual",
+    "page": 24,
+    "file": "pages/owner-manual-p24.md",
+    "topics": [
+      "tig-setup",
+      "tig-torch",
+      "foot-pedal",
+      "ground-clamp",
+      "polarity",
+      "tig-stick-section"
+    ],
+    "summary": "TIG/Stick Welding: TIG Setup, Connect Cables"
+  },
+  {
+    "source": "owner-manual",
+    "page": 25,
+    "file": "pages/owner-manual-p25.md",
+    "topics": [
+      "shielding-gas",
+      "argon",
+      "regulator",
+      "power-cord",
+      "power-input",
+      "rating-plate",
+      "nameplate",
+      "specs"
+    ],
+    "summary": "TIG/Stick: Connect Shielding Gas / Connect Power Cord"
+  },
+  {
+    "source": "owner-manual",
+    "page": 26,
+    "file": "pages/owner-manual-p26.md",
+    "topics": [
+      "tungsten-electrode",
+      "sharpening",
+      "grinding",
+      "tig-torch-assembly",
+      "collet",
+      "collet-body",
+      "ceramic-nozzle",
+      "back-cap"
+    ],
+    "summary": "TIG/Stick: Sharpen Tungsten Electrode / Assemble TIG Torch"
+  },
+  {
+    "source": "owner-manual",
+    "page": 27,
+    "file": "pages/owner-manual-p27.md",
+    "topics": [
+      "stick-setup",
+      "electrode-holder",
+      "ground-clamp",
+      "polarity",
+      "power-cord",
+      "power-input",
+      "rating-plate",
+      "nameplate"
+    ],
+    "summary": "TIG/Stick: Stick Setup, Connect Cables / Connect Power Cord"
+  },
+  {
+    "source": "owner-manual",
+    "page": 28,
+    "file": "pages/owner-manual-p28.md",
+    "topics": [
+      "tig-stick-welding",
+      "safety",
+      "ppe",
+      "dc-tig",
+      "ac-tig",
+      "stick-welding",
+      "power-on"
+    ],
+    "summary": "Basic TIG/Stick Welding"
+  },
+  {
+    "source": "owner-manual",
+    "page": 29,
+    "file": "pages/owner-manual-p29.md",
+    "topics": [
+      "duty-cycle",
+      "tig-duty-cycle",
+      "stick-duty-cycle",
+      "setting-up-weld",
+      "ground-clamp"
+    ],
+    "summary": "TIG/Stick: Duty Cycle / Setting Up the Weld"
+  },
+  {
+    "source": "owner-manual",
+    "page": 30,
+    "file": "pages/owner-manual-p30.md",
+    "topics": [
+      "tig-welding",
+      "asphyxiation-warning",
+      "control-panel",
+      "tig-settings",
+      "scfh",
+      "rod-diameter",
+      "open-circuit-voltage"
+    ],
+    "summary": "TIG Welding: Setup and Settings"
+  },
+  {
+    "source": "owner-manual",
+    "page": 31,
+    "file": "pages/owner-manual-p31.md",
+    "topics": [
+      "tig-welding-technique",
+      "optional-settings",
+      "strike-test",
+      "ctwd-tig",
+      "shutdown",
+      "tig-rod",
+      "foot-pedal"
+    ],
+    "summary": "TIG Welding: Optional Settings and Technique"
+  },
+  {
+    "source": "owner-manual",
+    "page": 32,
+    "file": "pages/owner-manual-p32.md",
+    "topics": [
+      "stick-welding",
+      "electrode-type",
+      "hot-start",
+      "arc-force",
+      "polarity",
+      "control-panel",
+      "stick-settings"
+    ],
+    "summary": "Stick Welding: Setup and Settings"
+  },
+  {
+    "source": "owner-manual",
+    "page": 33,
+    "file": "pages/owner-manual-p33.md",
+    "topics": [
+      "tig-stick-controls",
+      "optional-settings",
+      "stick-welding-procedure",
+      "safety-ppe"
+    ],
+    "summary": "TIG/Stick optional settings (control knob) and Stick welding step-by-step procedure"
+  },
+  {
+    "source": "owner-manual",
+    "page": 34,
+    "file": "pages/owner-manual-p34.md",
+    "topics": [
+      "welding-tips",
+      "strike-test",
+      "weld-quality-check",
+      "cleaning-weld",
+      "safety-ppe"
+    ],
+    "summary": "Welding Tips"
+  },
+  {
+    "source": "owner-manual",
+    "page": 35,
+    "file": "pages/owner-manual-p35.md",
+    "topics": [
+      "wire-weld-diagnosis",
+      "penetration",
+      "ctwd",
+      "voltage",
+      "wire-feed-speed",
+      "travel-speed",
+      "polarity"
+    ],
+    "summary": "Wire Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+  },
+  {
+    "source": "owner-manual",
+    "page": 36,
+    "file": "pages/owner-manual-p36.md",
+    "topics": [
+      "wire-weld-diagnosis",
+      "penetration",
+      "bend-at-joint",
+      "slag",
+      "weld-not-adhering"
+    ],
+    "summary": "Wire Weld Penetration (Workpiece Heat Control)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 37,
+    "file": "pages/owner-manual-p37.md",
+    "topics": [
+      "wire-weld-diagnosis",
+      "porosity",
+      "spatter",
+      "crooked-bead",
+      "burn-through",
+      "ctwd",
+      "polarity",
+      "shielding-gas"
+    ],
+    "summary": "Wire Weld Diagnosis – Porosity, Excessive Spatter, Crooked/Wavy Bead, Burn-Through"
+  },
+  {
+    "source": "owner-manual",
+    "page": 38,
+    "file": "pages/owner-manual-p38.md",
+    "topics": [
+      "stick-weld-diagnosis",
+      "penetration",
+      "current",
+      "arc-length",
+      "weld-speed"
+    ],
+    "summary": "Stick Weld Diagnosis – Workpiece Heat Control / Weld Penetration"
+  },
+  {
+    "source": "owner-manual",
+    "page": 39,
+    "file": "pages/owner-manual-p39.md",
+    "topics": [
+      "stick-weld-diagnosis",
+      "penetration",
+      "weld-not-adhering",
+      "bend-at-joint"
+    ],
+    "summary": "Stick Weld Penetration (Workpiece Heat Control)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 40,
+    "file": "pages/owner-manual-p40.md",
+    "topics": [
+      "stick-weld-diagnosis",
+      "slag",
+      "porosity",
+      "crooked-bead",
+      "spatter",
+      "burn-through"
+    ],
+    "summary": "Stick Weld Diagnosis – Slag coating, Porosity, Crooked/Wavy Bead, Excessive Spatter, Burn-Through"
+  },
+  {
+    "source": "owner-manual",
+    "page": 41,
+    "file": "pages/owner-manual-p41.md",
+    "topics": [
+      "maintenance",
+      "mig-gun-nozzle",
+      "contact-tip",
+      "lcd-screen-cover",
+      "inspection",
+      "cleaning",
+      "safety-fire"
+    ],
+    "summary": "Maintenance"
+  },
+  {
+    "source": "owner-manual",
+    "page": 42,
+    "file": "pages/owner-manual-p42.md",
+    "topics": [
+      "troubleshooting",
+      "mig",
+      "flux-cored",
+      "wire-feed",
+      "bird-nest",
+      "arc-stability",
+      "weak-arc"
+    ],
+    "summary": "Troubleshooting – MIG / Flux-Cored Welding"
+  },
+  {
+    "source": "owner-manual",
+    "page": 43,
+    "file": "pages/owner-manual-p43.md",
+    "topics": [
+      "troubleshooting",
+      "mig",
+      "flux-cored",
+      "welder-wont-turn-on",
+      "lcd-not-lighting",
+      "arc-wont-ignite",
+      "porosity"
+    ],
+    "summary": "Troubleshooting – MIG / Flux-Cored Welding (continued)"
+  },
+  {
+    "source": "owner-manual",
+    "page": 44,
+    "file": "pages/owner-manual-p44.md",
+    "topics": [
+      "troubleshooting",
+      "tig",
+      "stick",
+      "welder-wont-turn-on",
+      "lcd-not-lighting",
+      "weak-arc",
+      "arc-stability"
+    ],
+    "summary": "Troubleshooting – TIG / Stick Welding"
+  },
+  {
+    "source": "owner-manual",
+    "page": 45,
+    "file": "pages/owner-manual-p45.md",
+    "topics": [
+      "wiring-schematic",
+      "electrical-diagram",
+      "igbt",
+      "pfc",
+      "mcu-board",
+      "transformer",
+      "rectifier"
+    ],
+    "summary": "Wiring Schematic"
+  },
+  {
+    "source": "owner-manual",
+    "page": 46,
+    "file": "pages/owner-manual-p46.md",
+    "topics": [
+      "parts-list",
+      "replacement-parts",
+      "disclaimer"
+    ],
+    "summary": "Parts List and Diagram"
+  },
+  {
+    "source": "owner-manual",
+    "page": 47,
+    "file": "pages/owner-manual-p47.md",
+    "topics": [
+      "assembly-diagram",
+      "exploded-view",
+      "parts-diagram"
+    ],
+    "summary": "Assembly Diagram"
+  },
+  {
+    "source": "owner-manual",
+    "page": 48,
+    "file": "pages/owner-manual-p48.md",
+    "topics": [
+      "warranty",
+      "contact-info",
+      "brand"
+    ],
+    "summary": "Limited 90 Day Warranty"
+  },
+  {
+    "source": "quick-start-guide",
+    "page": 1,
+    "file": "pages/quick-start-guide-p01.md",
+    "topics": [
+      "wire-spool-installation",
+      "wire-feed-tension",
+      "safety-warnings",
+      "initial-power-on",
+      "VULCAN OmniPro 220"
+    ],
+    "summary": "Quick Start Guide front: wire spool install, wire-feed tension setup, safety warnings, initial power-on sequence"
+  },
+  {
+    "source": "quick-start-guide",
+    "page": 2,
+    "file": "pages/quick-start-guide-p02.md",
+    "topics": [
+      "cable-setup",
+      "polarity",
+      "stick",
+      "mig",
+      "flux-core",
+      "tig",
+      "ground-clamp",
+      "terminals"
+    ],
+    "summary": "Quick Start Guide back: cable/polarity setup per process (Stick, MIG, Flux-Core, TIG)"
+  },
+  {
+    "source": "selection-chart",
+    "page": 1,
+    "file": "pages/selection-chart-p01.md",
+    "topics": [
+      "process-selection",
+      "flux-cored",
+      "mig",
+      "stick",
+      "tig",
+      "duty-cycle",
+      "skill-level",
+      "material-thickness",
+      "gas-requirement",
+      "mig-vs-flux-cored"
+    ],
+    "summary": "How To Choose A Welder — Selection Chart (single page)"
+  }
+]

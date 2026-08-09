@@ -1,0 +1,56 @@
+[
+  {
+    "process": "Wire spool install & wire-feed check (MIG/Flux-Core, general power-on sequence)",
+    "steps": [
+      "Connect cables as needed for flux wire welding (see back of guide for process-specific cable setup).",
+      "Install wire spool. Insert wire through both feed guides and clamp it into feed mechanism. See manual if changing wire size or using solid wire.",
+      "Take off nozzle and tip, plug selected cord into welder and into wall, turn welder on, and press cold wire feed switch until wire comes out.",
+      "Incrementally tighten wire feed tension knob clockwise until wire will bend from feed tension at 2\"-3\".",
+      "Unplug welder and replace nozzle and tip.",
+      "Hold gun clear of workpiece, then plug in welder, turn it on, and set weld thickness and other settings."
+    ],
+    "page": 1,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "Stick (SMAW) cable setup",
+    "steps": [
+      "Connect ground clamp to negative terminal.",
+      "Connect electrode holder to positive terminal.",
+      "Leave wire feed power disconnected."
+    ],
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "MIG (GMAW) cable setup",
+    "steps": [
+      "Connect ground clamp to negative terminal.",
+      "Connect wire feed power to positive terminal.",
+      "Connect MIG gun to wire feed.",
+      "Connect wire feed control inside welder."
+    ],
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "Flux-Core (FCAW) cable setup",
+    "steps": [
+      "Follow MIG cable setup but connect ground clamp to positive terminal and wire feed power to negative terminal."
+    ],
+    "page": 2,
+    "source": "quick-start-guide"
+  },
+  {
+    "process": "TIG (GTAW) cable setup",
+    "steps": [
+      "Connect ground clamp to positive terminal.",
+      "Connect TIG torch to negative terminal.",
+      "Connect gas line to gas regulator.",
+      "Connect foot pedal inside welder.",
+      "Leave wire feed power disconnected."
+    ],
+    "page": 2,
+    "source": "quick-start-guide"
+  }
+]

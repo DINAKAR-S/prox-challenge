@@ -1,0 +1,102 @@
+[
+  {
+    "process": "MIG (Wire)",
+    "material": null,
+    "thickness": "24Ga",
+    "wireSize": ".025\"",
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": null,
+    "notes": "Example Wire Diameter / Material Thickness control-panel screen values shown in the Settings walkthrough figure (illustrative UI example, not the definitive Settings Chart).",
+    "page": 20,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "material": "Stainless Steel",
+    "thickness": "24Ga",
+    "wireSize": ".030\"",
+    "wireSpeed": "121 in/min",
+    "voltage": "13.8V",
+    "amps": null,
+    "notes": "Example Auto Weld Settings screen: Gas Type C25, Run-In WFS 25%, Inductance 5, Spot Timer 0.0s — illustrative UI example, not the definitive Settings Chart.",
+    "page": 20,
+    "source": "owner-manual"
+  },
+  {
+    "process": "TIG",
+    "material": null,
+    "thickness": "24Ga",
+    "wireSize": "1/16\" (Rod Diameter)",
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": "30A",
+    "notes": "Example Rod Diameter/Material Thickness and Auto Weld Settings screens: 'TIG with Pedal' process, 100% Ar gas — illustrative UI example, not the definitive Settings Chart.",
+    "page": 30,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "material": null,
+    "thickness": "16Ga",
+    "wireSize": "3/32\" (Electrode Diameter)",
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": "60A",
+    "notes": "Example Electrode Diameter/Material Thickness and Auto Weld Settings screens: Electrode type 60xx/70XX, Hot Start 6, Arc Force 0 — illustrative UI example, not the definitive Settings Chart.",
+    "page": 32,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Flux-Cored (FCAW)",
+    "material": "Steel, Stainless steel",
+    "thickness": "18 Gauge to 5/16\"",
+    "wireSize": null,
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": null,
+    "gas": "No gas required",
+    "notes": "Skill level: Low. Applications: galvanized steel, general fabrication, pipe and tubing, maintenance & repair. Weld result: more spatter. Uses cored wire; welds over mill scale and rust; requires minimal surface prep; usable outdoor in windy conditions; deep weld penetration, handles material gaps well.",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "process": "MIG (GMAW)",
+    "material": "Steel, Stainless steel, Aluminum (spool gun required)",
+    "thickness": "22 Gauge to 3/8\"",
+    "wireSize": null,
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": null,
+    "gas": "Gas required (indoor welding recommended)",
+    "notes": "Skill level: Low. Applications: sheet metal, automotive body, tubing, structural steel. Weld result: clean/minimal spatter. Uses solid wire; uses shielding gas; clean welds with minimal spatter; good for thin materials like sheet metal.",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "process": "Stick (SMAW)",
+    "material": "Steel, Stainless steel, Castings",
+    "thickness": "10 Gauge to 1/2\"",
+    "wireSize": null,
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": null,
+    "gas": "No gas required",
+    "notes": "Skill level: Moderate. Applications: pipe and tubing, structural steel, pressure vessels, maintenance & repair. Weld result: more spatter. Deep penetration; good choice for thicker materials.",
+    "page": 1,
+    "source": "selection-chart"
+  },
+  {
+    "process": "TIG (GTAW)",
+    "material": "Steel, Stainless steel, Chrome moly (DC TIG required); Aluminum, Magnesium alloys (AC TIG required)",
+    "thickness": "24 Gauge to 3/16\"",
+    "wireSize": null,
+    "wireSpeed": null,
+    "voltage": null,
+    "amps": null,
+    "gas": "Gas required (indoor welding recommended)",
+    "notes": "Skill level: High. Applications: stainless steel exhausts, bicycle frames, thin wall pipe & tubing, metal art. Weld result: extremely clean. Highest quality welds, precise control.",
+    "page": 1,
+    "source": "selection-chart"
+  }
+]

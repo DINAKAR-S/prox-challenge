@@ -1,0 +1,23 @@
+[
+  {
+    "code": "Duty Cycle Exceeded",
+    "meaning": "The machine has gone into fault; the machine has thermally tripped.",
+    "remedy": "Allow the machine to cool. There is no circuit breaker to reset; the machine resumes normal operation automatically once remedied.",
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "code": "Low Voltage Input",
+    "meaning": "The machine has gone into fault; the voltage input is below the specified limit.",
+    "remedy": "Inspect input voltage and ensure it is within machine limits. Consult operator manual for machine specifications.",
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "code": "High Voltage Input",
+    "meaning": "The machine has gone into fault; the voltage input is higher than the specified limit.",
+    "remedy": "Inspect input voltage and ensure it is within machine limits. Consult operator manual for machine specifications.",
+    "page": 23,
+    "source": "owner-manual"
+  }
+]

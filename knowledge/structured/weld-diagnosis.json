@@ -1,0 +1,366 @@
+[
+  {
+    "defect": "Inadequate Penetration (Wire/MIG)",
+    "appearance": "Weld does not penetrate the joint fully, just on the surface. Cross-section shows bead sitting on top with an unfused gap visible in the joint below.",
+    "causes": [
+      "Not hot enough overall.",
+      "Incorrect welding technique (CTWD too long, arc not on leading edge, wrong gun angle).",
+      "Insufficient weld heat.",
+      "Workpieces too thick/close.",
+      "Insufficient weld material."
+    ],
+    "remedies": [
+      "Increase weld current.",
+      "Decrease travel speed.",
+      "Use faster wire feed.",
+      "Use shorter CTWD.",
+      "Maintain 1/2\" or less CTWD, keep arc on leading edge of weld puddle, hold MIG Gun at proper angles.",
+      "Reduce travel speed / increase weld current.",
+      "Bevel thick workpieces, allow slight gap, weld in several passes.",
+      "Increase wire feed speed."
+    ],
+    "page": 35,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Excess Penetration or Burn-Through (Wire/MIG)",
+    "appearance": "Weld droops on top and underneath, or falls through entirely, making a hole. Cross-section shows deep, sagging, rounded penetration well past the joint.",
+    "causes": [
+      "Too hot overall.",
+      "Workpiece overheating.",
+      "Travel speed too slow.",
+      "Excessive material at weld."
+    ],
+    "remedies": [
+      "Decrease weld current.",
+      "Increase travel speed.",
+      "Use slower wire feed.",
+      "Use longer CTWD.",
+      "Reduce wire feed speed / decrease weld current.",
+      "Increase travel speed and keep it steady.",
+      "Reduce wire feed speed."
+    ],
+    "page": 36,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Bend at Joint (Wire/MIG)",
+    "appearance": "Workpiece plates appear angled/bent at the weld joint rather than flat/coplanar, seen in profile view.",
+    "causes": [
+      "Improper clamping.",
+      "Excessive heat."
+    ],
+    "remedies": [
+      "Clamp workpieces securely.",
+      "Make tack welds to hold workpieces.",
+      "Weld a small portion and allow to cool before proceeding.",
+      "Increase travel speed.",
+      "Reduce wire feed speed."
+    ],
+    "page": 36,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Weld Not Adhering Properly (Wire/MIG)",
+    "appearance": "Gaps present between weld and previous bead or between weld and workpiece, visible at the upper shoulders and bottom tip of the weld profile.",
+    "causes": [
+      "Incorrect welding technique.",
+      "Insufficient weld heat.",
+      "Dirty workpiece.",
+      "Insufficient weld material.",
+      "Workpiece gap too narrow."
+    ],
+    "remedies": [
+      "Place stringer bead at correct place in joint.",
+      "Adjust workpiece position or weld angle to permit proper welding to bottom of piece.",
+      "Pause briefly at sides during weave bead.",
+      "Keep arc on leading edge of weld puddle.",
+      "Hold MIG Gun at proper angles.",
+      "Increase current.",
+      "Increase wire feed speed.",
+      "Clean workpiece down to bare metal.",
+      "Widen groove or increase bevel."
+    ],
+    "page": 36,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Porosity (Wire/MIG)",
+    "appearance": "Small cavities or holes in the bead — visible as scattered light/white speckled dots along and beside the rippled weld bead in top view.",
+    "causes": [
+      "Incorrect polarity.",
+      "Insufficient shielding gas (MIG only).",
+      "Incorrect shielding gas (MIG only).",
+      "Dirty workpiece or welding wire.",
+      "Inconsistent travel speed.",
+      "CTWD too long."
+    ],
+    "remedies": [
+      "Check that polarity is set correctly for type of welding.",
+      "Increase flow of gas, clean nozzle, maintain proper CTWD.",
+      "Use shielding gas recommended by wire supplier.",
+      "Clean workpiece down to bare metal; keep wire clean and free from oil, coatings, residues.",
+      "Maintain steady travel speed.",
+      "Reduce CTWD."
+    ],
+    "page": 37,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Excessive Spatter (Wire/MIG)",
+    "appearance": "Fine spatter is normal; grainy, large spatter is a problem — dense dark speckled granules scattered along both sides of the bead in top view.",
+    "causes": [
+      "Dirty workpiece or welding wire.",
+      "Incorrect polarity.",
+      "Insufficient shielding gas (MIG only).",
+      "Wire feeding too fast.",
+      "CTWD too long."
+    ],
+    "remedies": [
+      "Clean workpiece down to bare metal; keep wire clean and free from oil, coatings, residues.",
+      "Check that polarity is set correctly for type of welding.",
+      "Increase flow of gas, clean nozzle, maintain proper CTWD.",
+      "Reduce wire feed speed.",
+      "Reduce CTWD."
+    ],
+    "page": 37,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Crooked/Wavy Bead (Wire/MIG)",
+    "appearance": "Bead wanders/curves left and right along its length instead of running straight, seen in top view.",
+    "causes": [
+      "Inaccurate welding.",
+      "Inconsistent travel speed.",
+      "CTWD too long."
+    ],
+    "remedies": [
+      "Use two hands or rest hand on steady surface.",
+      "Maintain steady travel speed.",
+      "Reduce CTWD."
+    ],
+    "page": 37,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Burn-Through (Wire/MIG)",
+    "appearance": "Base material melts away, leaving a hole in the weld — visible as a distinct blown-out white/irregular hole in the bead track in top view.",
+    "causes": [
+      "Workpiece overheating.",
+      "Travel speed too slow.",
+      "Excessive material at weld."
+    ],
+    "remedies": [
+      "Reduce current and/or wire feed speed.",
+      "Increase travel speed and ensure that travel speed is kept steady.",
+      "Reduce wire feed speed."
+    ],
+    "page": 37,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Inadequate Penetration (Stick)",
+    "appearance": "Weld does not contact the joint fully, just on the surface. Cross-section shows bead sitting on top with an unfused gap in the joint below.",
+    "causes": [
+      "Not hot enough overall.",
+      "Incorrect welding technique.",
+      "Insufficient weld heat.",
+      "Workpieces too thick/close.",
+      "Insufficient weld material."
+    ],
+    "remedies": [
+      "Increase current.",
+      "Weld more slowly.",
+      "Keep arc on leading edge of weld puddle, hold torch at proper angles.",
+      "Slow down so fill material has time to melt into the weld location; increase current.",
+      "Bevel thick workpieces, allow slight gap, weld in several passes.",
+      "Increase amount of fill material."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Excess Penetration or Burn-Through (Stick)",
+    "appearance": "Weld droops on top and underneath or falls through entirely, making a hole. Cross-section shows deep sagging penetration.",
+    "causes": [
+      "Too hot overall.",
+      "Workpiece overheating.",
+      "Welding speed too slow."
+    ],
+    "remedies": [
+      "Decrease current.",
+      "Weld more quickly.",
+      "Reduce current.",
+      "Increase welding speed and ensure that welding speed is kept steady."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Current Too Low (Stick example weld)",
+    "appearance": "Photo shows a narrow, ropey, poorly-fused-looking bead with rough, piled texture, compared to the Good Weld reference bead.",
+    "causes": [
+      "Current too low."
+    ],
+    "remedies": [
+      "Increase the current."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Current Too High (Stick example weld)",
+    "appearance": "Photo shows a wide, flat, splashy bead with irregular wavy/frayed edges and a burned, washed-out look.",
+    "causes": [
+      "Current too high."
+    ],
+    "remedies": [
+      "Decrease the current."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Weld Speed Too Fast (Stick example weld)",
+    "appearance": "Photo shows a thin, narrow, widely-spaced ripple bead with understated build-up.",
+    "causes": [
+      "Weld speed too fast."
+    ],
+    "remedies": [
+      "Weld slower."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Weld Speed Too Slow (Stick example weld)",
+    "appearance": "Photo shows a wide, heavy bead with tightly bunched ripples and excess pooled material.",
+    "causes": [
+      "Weld speed too slow."
+    ],
+    "remedies": [
+      "Weld faster."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Arc Length Too Short (Stick example weld)",
+    "appearance": "Photo shows a narrow bead with small tight ripples and some irregular buildup.",
+    "causes": [
+      "Arc length too short (electrode held too close to workpiece)."
+    ],
+    "remedies": [
+      "Increase distance (electrode-to-workpiece)."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Arc Length Too Long (Stick example weld)",
+    "appearance": "Photo shows a wide, rough, spattery bead with an irregular blotchy surface texture.",
+    "causes": [
+      "Arc length too long (electrode held too far from workpiece)."
+    ],
+    "remedies": [
+      "Decrease distance (electrode-to-workpiece)."
+    ],
+    "page": 38,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Weld Not Adhering Properly (Stick)",
+    "appearance": "Gaps present between weld and previous bead or between weld and workpiece, at the upper shoulders and bottom tip of the weld profile.",
+    "causes": [
+      "Incorrect welding technique.",
+      "Insufficient weld heat.",
+      "Dirty workpiece.",
+      "Insufficient weld material.",
+      "Distance between workpieces too large."
+    ],
+    "remedies": [
+      "Place stringer bead at correct place in joint.",
+      "Adjust workpiece position or weld angle to permit proper welding to bottom of piece.",
+      "Keep arc on leading edge of weld puddle.",
+      "Hold Electrode and fill material at proper angles.",
+      "Increase current.",
+      "Clean workpiece down to bare metal.",
+      "Increase amount of fill material.",
+      "Decrease distance and increase bevel."
+    ],
+    "page": 39,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Bend at Joint (Stick)",
+    "appearance": "Workpiece plates appear angled/bent at the weld joint rather than flat/coplanar, seen in profile view.",
+    "causes": [
+      "Improper clamping.",
+      "Excessive heat."
+    ],
+    "remedies": [
+      "Clamp workpieces securely.",
+      "Make tack welds to hold workpieces.",
+      "Weld a small portion and allow to cool before proceeding.",
+      "Increase weld speed."
+    ],
+    "page": 39,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Porosity (Stick)",
+    "appearance": "Small cavities or holes in the bead — scattered light/white speckled dots along and beside the rippled weld bead in top view.",
+    "causes": [
+      "Dirty workpiece or fill material.",
+      "Inconsistent welding speed."
+    ],
+    "remedies": [
+      "Clean workpiece down to bare metal; keep fill material and Electrode clean and free from oil, coatings, residues.",
+      "Maintain steady weld speed."
+    ],
+    "page": 40,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Crooked/Wavy Bead (Stick)",
+    "appearance": "Bead wanders/curves left and right along its length instead of running straight, seen in top view.",
+    "causes": [
+      "Inaccurate welding.",
+      "Inconsistent welding speed."
+    ],
+    "remedies": [
+      "Use two hands or rest hand on steady surface.",
+      "Maintain steady weld speed."
+    ],
+    "page": 40,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Excessive Spatter (Stick)",
+    "appearance": "Fine spatter is normal; grainy, large spatter is a problem — dense dark speckled granules scattered along both sides of the bead in top view.",
+    "causes": [
+      "Dirty workpiece or fill material."
+    ],
+    "remedies": [
+      "Clean workpiece down to bare metal; keep fill material and Electrode clean and free from oil, coatings, residues."
+    ],
+    "page": 40,
+    "source": "owner-manual"
+  },
+  {
+    "defect": "Burn-Through (Stick)",
+    "appearance": "Base material melts away, leaving a hole in the weld — a distinct blown-out white/irregular hole in the bead track in top view.",
+    "causes": [
+      "Workpiece overheating.",
+      "Welding speed too slow.",
+      "Excessive material at weld."
+    ],
+    "remedies": [
+      "Reduce current.",
+      "Increase welding speed and ensure that welding speed is kept steady.",
+      "Reduce amount of fill material."
+    ],
+    "page": 40,
+    "source": "owner-manual"
+  }
+]

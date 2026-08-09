@@ -1,0 +1,481 @@
+[
+  {
+    "process": "MIG",
+    "voltageInput": "240V",
+    "amps": 200,
+    "dutyCyclePercent": 25,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG",
+    "voltageInput": "240V",
+    "amps": 130,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG",
+    "voltageInput": "240V",
+    "amps": 115,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240V",
+    "amps": 175,
+    "dutyCyclePercent": 25,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240V",
+    "amps": 115,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240V",
+    "amps": 100,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240V",
+    "amps": 175,
+    "dutyCyclePercent": 30,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240V",
+    "amps": 125,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240V",
+    "amps": 105,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG",
+    "voltageInput": "120V",
+    "amps": 100,
+    "dutyCyclePercent": 40,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG",
+    "voltageInput": "120V",
+    "amps": 85,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG",
+    "voltageInput": "120V",
+    "amps": 75,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120V",
+    "amps": 80,
+    "dutyCyclePercent": 40,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120V",
+    "amps": 70,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120V",
+    "amps": 60,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120V",
+    "amps": 125,
+    "dutyCyclePercent": 40,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120V",
+    "amps": 105,
+    "dutyCyclePercent": 60,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120V",
+    "amps": 90,
+    "dutyCyclePercent": 100,
+    "page": 14,
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 100,
+    "dutyCyclePercent": 40,
+    "page": 19,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 75,
+    "dutyCyclePercent": 100,
+    "page": 19,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 200,
+    "dutyCyclePercent": 25,
+    "page": 19,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 115,
+    "dutyCyclePercent": 100,
+    "page": 19,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 100,
+    "dutyCyclePercent": 40,
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 75,
+    "dutyCyclePercent": 100,
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 200,
+    "dutyCyclePercent": 25,
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 115,
+    "dutyCyclePercent": 100,
+    "page": 23,
+    "source": "owner-manual"
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 200,
+    "dutyCyclePercent": 25,
+    "page": 25,
+    "notes": "U0=86V, U2=24V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 130,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=20.5V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "240VAC",
+    "amps": 115,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=19.75V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 100,
+    "dutyCyclePercent": 40,
+    "page": 25,
+    "notes": "U0=86V, U2=19V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 85,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=18.25V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "MIG (Wire)",
+    "voltageInput": "120VAC",
+    "amps": 75,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=17.75V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240VAC",
+    "amps": 175,
+    "dutyCyclePercent": 25,
+    "page": 25,
+    "notes": "U0=86V, U2=27V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240VAC",
+    "amps": 115,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=24.6V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240VAC",
+    "amps": 100,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=24V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120VAC",
+    "amps": 80,
+    "dutyCyclePercent": 40,
+    "page": 25,
+    "notes": "U0=86V, U2=23.2V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120VAC",
+    "amps": 70,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=22.8V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120VAC",
+    "amps": 60,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=22.4V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240VAC",
+    "amps": 175,
+    "dutyCyclePercent": 30,
+    "page": 25,
+    "notes": "U0=86V, U2=17V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240VAC",
+    "amps": 125,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=15V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240VAC",
+    "amps": 105,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=14.2V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120VAC",
+    "amps": 125,
+    "dutyCyclePercent": 40,
+    "page": 25,
+    "notes": "U0=86V, U2=15V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120VAC",
+    "amps": 105,
+    "dutyCyclePercent": 60,
+    "page": 25,
+    "notes": "U0=86V, U2=14.2V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120VAC",
+    "amps": 90,
+    "dutyCyclePercent": 100,
+    "page": 25,
+    "notes": "U0=86V, U2=13.6V",
+    "source": "owner-manual",
+    "authoritative": true
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240VAC",
+    "amps": 175,
+    "dutyCyclePercent": 30,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "240VAC",
+    "amps": 105,
+    "dutyCyclePercent": 100,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120VAC",
+    "amps": 125,
+    "dutyCyclePercent": 40,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "TIG",
+    "voltageInput": "120VAC",
+    "amps": 90,
+    "dutyCyclePercent": 100,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240VAC",
+    "amps": 175,
+    "dutyCyclePercent": 25,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "240VAC",
+    "amps": 100,
+    "dutyCyclePercent": 100,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120VAC",
+    "amps": 80,
+    "dutyCyclePercent": 40,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "Stick",
+    "voltageInput": "120VAC",
+    "amps": 60,
+    "dutyCyclePercent": 100,
+    "page": 29,
+    "source": "owner-manual"
+  },
+  {
+    "process": "example (unspecified process)",
+    "voltageInput": null,
+    "amps": 165,
+    "dutyCyclePercent": 30,
+    "page": 1,
+    "source": "selection-chart",
+    "notes": "Generic worked example illustrating the duty-cycle concept: 3 minutes welding, 7 minutes resting within a 10-minute period. Not tied to a specific process or the OmniPro 220's actual rated duty cycle on this page."
+  }
+]

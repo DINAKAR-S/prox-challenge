@@ -1,0 +1,206 @@
+{
+  "dutyCycle": [
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 100, "dutyCyclePercent": 40, "page": 19 },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 75, "dutyCyclePercent": 100, "page": 19 },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 200, "dutyCyclePercent": 25, "page": 19 },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 115, "dutyCyclePercent": 100, "page": 19 },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 100, "dutyCyclePercent": 40, "page": 23 },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 75, "dutyCyclePercent": 100, "page": 23 },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 200, "dutyCyclePercent": 25, "page": 23 },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 115, "dutyCyclePercent": 100, "page": 23 },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 200, "dutyCyclePercent": 25, "page": 25, "notes": "U0=86V, U2=24V" },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 130, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=20.5V" },
+    { "process": "MIG (Wire)", "voltageInput": "240VAC", "amps": 115, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=19.75V" },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 100, "dutyCyclePercent": 40, "page": 25, "notes": "U0=86V, U2=19V" },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 85, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=18.25V" },
+    { "process": "MIG (Wire)", "voltageInput": "120VAC", "amps": 75, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=17.75V" },
+    { "process": "Stick", "voltageInput": "240VAC", "amps": 175, "dutyCyclePercent": 25, "page": 25, "notes": "U0=86V, U2=27V" },
+    { "process": "Stick", "voltageInput": "240VAC", "amps": 115, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=24.6V" },
+    { "process": "Stick", "voltageInput": "240VAC", "amps": 100, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=24V" },
+    { "process": "Stick", "voltageInput": "120VAC", "amps": 80, "dutyCyclePercent": 40, "page": 25, "notes": "U0=86V, U2=23.2V" },
+    { "process": "Stick", "voltageInput": "120VAC", "amps": 70, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=22.8V" },
+    { "process": "Stick", "voltageInput": "120VAC", "amps": 60, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=22.4V" },
+    { "process": "TIG", "voltageInput": "240VAC", "amps": 175, "dutyCyclePercent": 30, "page": 25, "notes": "U0=86V, U2=17V" },
+    { "process": "TIG", "voltageInput": "240VAC", "amps": 125, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=15V" },
+    { "process": "TIG", "voltageInput": "240VAC", "amps": 105, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=14.2V" },
+    { "process": "TIG", "voltageInput": "120VAC", "amps": 125, "dutyCyclePercent": 40, "page": 25, "notes": "U0=86V, U2=15V" },
+    { "process": "TIG", "voltageInput": "120VAC", "amps": 105, "dutyCyclePercent": 60, "page": 25, "notes": "U0=86V, U2=14.2V" },
+    { "process": "TIG", "voltageInput": "120VAC", "amps": 90, "dutyCyclePercent": 100, "page": 25, "notes": "U0=86V, U2=13.6V" },
+    { "process": "TIG", "voltageInput": "240VAC", "amps": 175, "dutyCyclePercent": 30, "page": 29 },
+    { "process": "TIG", "voltageInput": "240VAC", "amps": 105, "dutyCyclePercent": 100, "page": 29 },
+    { "process": "TIG", "voltageInput": "120VAC", "amps": 125, "dutyCyclePercent": 40, "page": 29 },
+    { "process": "TIG", "voltageInput": "120VAC", "amps": 90, "dutyCyclePercent": 100, "page": 29 },
+    { "process": "Stick", "voltageInput": "240VAC", "amps": 175, "dutyCyclePercent": 25, "page": 29 },
+    { "process": "Stick", "voltageInput": "240VAC", "amps": 100, "dutyCyclePercent": 100, "page": 29 },
+    { "process": "Stick", "voltageInput": "120VAC", "amps": 80, "dutyCyclePercent": 40, "page": 29 },
+    { "process": "Stick", "voltageInput": "120VAC", "amps": 60, "dutyCyclePercent": 100, "page": 29 }
+  ],
+  "polarity": [
+    {
+      "process": "MIG (solid wire w/ shielding gas, e.g. Stainless Tri-Mix)",
+      "electrodeSocket": "Positive (+)",
+      "groundSocket": "Negative (-)",
+      "polarityName": "DCEP (reverse polarity)",
+      "notes": "Shown on the Polarity/Gas control-panel screen for 'Stainless Tri-Mix' gas: ground-clamp icon under Negative socket, MIG-gun icon under Positive socket.",
+      "page": 20
+    },
+    {
+      "process": "Spool Gun (optional, aluminum welding)",
+      "electrodeSocket": "Positive (+) — Wire Feed Power Cable",
+      "groundSocket": "Negative (-) — Ground Clamp Cable",
+      "polarityName": "DCEP (reverse polarity, same convention as standard MIG)",
+      "notes": "Ground Clamp Cable plugs into Negative Socket; Wire Feed Power Cable plugs into Positive Socket; both twisted clockwise to lock.",
+      "page": 17
+    },
+    {
+      "process": "TIG (DC)",
+      "electrodeSocket": "Negative (-) — TIG Torch Cable",
+      "groundSocket": "Positive (+) — Ground Clamp Cable",
+      "polarityName": "DCEN (straight polarity)",
+      "notes": "Ground Clamp Cable plugs into Positive Socket; TIG Torch Cable plugs into Negative Socket. Confirmed again on the TIG Polarity/Gas control-panel screen (page 30): Negative socket = TIG-torch icon, Positive socket = ground-clamp icon, '100% Argon'.",
+      "page": 24
+    },
+    {
+      "process": "Stick",
+      "electrodeSocket": "Positive (+) — Electrode Holder Cable",
+      "groundSocket": "Negative (-) — Ground Clamp Cable",
+      "polarityName": "DCEP (reverse polarity)",
+      "notes": "Ground Clamp Cable plugs into Negative Socket; Electrode Holder Cable plugs into Positive Socket. Confirmed again on the Stick Polarity control-panel screen (page 32): Negative socket = ground-clamp icon, Positive socket = electrode-holder icon, 'No Gas Required'.",
+      "page": 27
+    }
+  ],
+  "settings": [
+    {
+      "process": "MIG (Wire)",
+      "material": null,
+      "thickness": "24Ga",
+      "wireSize": ".025\"",
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": null,
+      "notes": "Example Wire Diameter / Material Thickness control-panel screen values shown in the Settings walkthrough figure (illustrative UI example, not the definitive Settings Chart).",
+      "page": 20
+    },
+    {
+      "process": "MIG (Wire)",
+      "material": "Stainless Steel",
+      "thickness": "24Ga",
+      "wireSize": ".030\"",
+      "wireSpeed": "121 in/min",
+      "voltage": "13.8V",
+      "amps": null,
+      "notes": "Example Auto Weld Settings screen: Gas Type C25, Run-In WFS 25%, Inductance 5, Spot Timer 0.0s — illustrative UI example, not the definitive Settings Chart.",
+      "page": 20
+    },
+    {
+      "process": "TIG",
+      "material": null,
+      "thickness": "24Ga",
+      "wireSize": "1/16\" (Rod Diameter)",
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": "30A",
+      "notes": "Example Rod Diameter/Material Thickness and Auto Weld Settings screens: 'TIG with Pedal' process, 100% Ar gas — illustrative UI example, not the definitive Settings Chart.",
+      "page": 30
+    },
+    {
+      "process": "Stick",
+      "material": null,
+      "thickness": "16Ga",
+      "wireSize": "3/32\" (Electrode Diameter)",
+      "wireSpeed": null,
+      "voltage": null,
+      "amps": "60A",
+      "notes": "Example Electrode Diameter/Material Thickness and Auto Weld Settings screens: Electrode type 60xx/70XX, Hot Start 6, Arc Force 0 — illustrative UI example, not the definitive Settings Chart.",
+      "page": 32
+    }
+  ],
+  "troubleshooting": [
+    {
+      "symptom": "Welder automatically shuts down and a warning/fault screen appears in the LCD Display during use",
+      "causes": [
+        "Duty Cycle Exceeded (machine has thermally tripped)",
+        "Low Voltage Input (voltage input below the specified limit)",
+        "High Voltage Input (voltage input higher than the specified limit)"
+      ],
+      "remedies": [
+        "Duty Cycle Exceeded: allow the machine to cool.",
+        "Low/High Voltage Input: inspect input voltage and ensure it is within machine limits.",
+        "Consult operator manual for machine specifications.",
+        "No action needed to reset a breaker — there is no circuit breaker to reset; the machine resumes normal operation automatically once the issue is remedied."
+      ],
+      "page": 23
+    },
+    {
+      "symptom": "Wire does not bend/feed properly against test surface when checking drive tension (feeds too loosely or stalls)",
+      "causes": ["Wire Feed Tensioner set too loose"],
+      "remedies": [
+        "Unplug the Welder, slightly tighten the Feed Tensioner clockwise, and retest.",
+        "Retest by pressing Trigger to feed wire against a piece of wood 2-3 inches away for less than 3 seconds (wire feed auto-stops after 3 seconds with no arc)."
+      ],
+      "page": 17
+    }
+  ],
+  "specs": [
+    { "name": "Model", "value": "Vulcan OMNIPRO 220", "page": 25 },
+    { "name": "Item Number", "value": "57812", "page": 25 },
+    { "name": "UPC", "value": "193175422590", "page": 25 },
+    { "name": "Standard Conformance", "value": "ANSI/IEC Std. 60974-1", "page": 25 },
+    { "name": "No-load voltage U0 (all processes)", "value": "86V", "page": 25 },
+    { "name": "MIG output range @ 240V input", "value": "30A/15.5V to 220A/25V", "page": 25 },
+    { "name": "MIG output range @ 120V input", "value": "30A/15.5V to 140A/21V", "page": 25 },
+    { "name": "Stick output range @ 240V input", "value": "10A/20.4V to 175A/27V", "page": 25 },
+    { "name": "Stick output range @ 120V input", "value": "10A/20.4V to 80A/23.2V", "page": 25 },
+    { "name": "TIG output range @ 240V input", "value": "10A/10.4V to 175A/17V", "page": 25 },
+    { "name": "TIG output range @ 120V input", "value": "10A/10.4V to 125A/15V", "page": 25 },
+    { "name": "Input current I1max @ 240V (MIG / Stick / TIG)", "value": "25.5A / 23.7A / 15.6A", "page": 25 },
+    { "name": "Input current I1eff @ 240V (MIG / Stick / TIG)", "value": "12.8A / 11.9A / 8.5A", "page": 25 },
+    { "name": "Input current I1max @ 120V (MIG / Stick / TIG)", "value": "20.8A / 19.5A / 20.6A", "page": 25 },
+    { "name": "Input current I1eff @ 120V (MIG / Stick / TIG)", "value": "13.1A / 12.3A / 13A", "page": 25 },
+    { "name": "Enclosure rating", "value": "IP21S", "page": 25 },
+    { "name": "Input frequency", "value": "1~50/60Hz", "page": 25 },
+    { "name": "Power input voltage options", "value": "U1 = 240V or U1 = 120V", "page": 25 },
+    { "name": "Contact Tip to Work Distance (CTWD) - MIG/wire", "value": "up to 1/2\"", "page": 22 },
+    { "name": "MIG Gun push/drag angle range", "value": "0-15° from vertical", "page": 22 },
+    { "name": "Butt weld joint gun angle", "value": "90°", "page": 22 },
+    { "name": "Fillet weld joint gun angle", "value": "45°", "page": 22 },
+    { "name": "MIG wire stickout after Contact Tip", "value": "1/2\"", "page": 17 },
+    { "name": "Tungsten Electrode ideal conical grind length", "value": "2-1/2 times the electrode diameter", "page": 26 },
+    { "name": "Tungsten Electrode protrusion beyond Ceramic Nozzle", "value": "1/8\" to 1/4\"", "page": 26 },
+    { "name": "TIG Electrode-to-workpiece arc distance", "value": "1 to 1.5 times the diameter of the Electrode", "page": 31 },
+    { "name": "TIG torch backward tilt during welding", "value": "10-15 degrees from vertical", "page": 31 },
+    { "name": "MIG/Wire shielding gas flow rate", "value": "20-30 SCFH", "page": 20 },
+    { "name": "TIG shielding gas flow rate", "value": "10-25 SCFH", "page": 30 },
+    { "name": "Power receptacle requirement", "value": "GFCI protected, 120 VAC (20 amp rated) or 240 VAC receptacle matching the plug; circuit must have delayed action-type circuit breaker or fuses", "page": 20 },
+    { "name": "Save Setting memory slots", "value": "5", "page": 21 },
+    { "name": "Shielding gas for TIG setup example", "value": "100% Argon", "page": 25 }
+  ],
+  "safety": [
+    { "warning": "Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding.", "page": 18 },
+    { "warning": "Light from the arc can cause permanent damage to the eyes and skin.", "page": 18 },
+    { "warning": "Do not breathe arc fumes.", "page": 18 },
+    { "warning": "Keep welding tip clear of grounded objects whenever unit is plugged in and turned on.", "page": 18 },
+    { "warning": "When welding equipment on a vehicle, disconnect the vehicle battery power from both the positive connection and the ground before welding. This prevents damage to some vehicle electrical systems and electronics due to the high voltage and high frequency bursts common in welding.", "page": 19 },
+    { "warning": "Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath.", "page": 21 },
+    { "warning": "Weld will be hot, do not touch.", "page": 23 },
+    { "warning": "Turn the Power Switch off and unplug the Welder before setup.", "page": 24 },
+    { "warning": "Do not plug cord into wall outlet at this time.", "page": 25 },
+    { "warning": "Some Electrodes may have materials added to them that are hazardous to breathe. Wear a respirator and ANSI-approved Safety goggles when grinding an Electrode.", "page": 26 },
+    { "warning": "Do not plug cord into wall outlet at this time.", "page": 27 },
+    { "warning": "Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.", "page": 28 },
+    { "warning": "Keep welding tip clear of grounded objects whenever unit is plugged in and turned on.", "page": 28 },
+    { "warning": "When welding equipment on a vehicle, disconnect the vehicle battery power from both the positive connection and the ground before welding. This prevents damage to some vehicle electrical systems and electronics due to the high voltage and high frequency bursts common in welding.", "page": 29 },
+    { "warning": "Do not weld without Grounding Clamp. When the operator is not holding the Torch, it must be sitting on a nonconductive, nonflammable surface. Only hold TIG Rod with an electrically insulated welding glove.", "page": 30 },
+    { "warning": "Do not open gas without proper ventilation. Fix gas leaks immediately. Shielding gas can displace air and cause rapid loss of consciousness and death. Shielding gas without carbon dioxide can be even more hazardous because asphyxiation can start without feeling shortness of breath.", "page": 30 },
+    { "warning": "Welder is now energized and Open Circuit Voltage is present.", "page": 30 },
+    { "warning": "Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.", "page": 31 },
+    { "warning": "Metal work bench must be grounded when TIG welding.", "page": 31 },
+    { "warning": "Do not weld without Grounding Clamp. When the operator is not holding the Electrode Holder, it must be sitting on a nonconductive, nonflammable surface.", "page": 32 },
+    { "warning": "Welder is now energized and Open Circuit Voltage is present.", "page": 32 }
+  ],
+  "errorCodes": [
+    { "code": "Duty Cycle Exceeded", "meaning": "The machine has gone into fault; the machine has thermally tripped.", "remedy": "Allow the machine to cool. There is no circuit breaker to reset; the machine resumes normal operation automatically once remedied.", "page": 23 },
+    { "code": "Low Voltage Input", "meaning": "The machine has gone into fault; the voltage input is below the specified limit.", "remedy": "Inspect input voltage and ensure it is within machine limits. Consult operator manual for machine specifications.", "page": 23 },
+    { "code": "High Voltage Input", "meaning": "The machine has gone into fault; the voltage input is higher than the specified limit.", "remedy": "Inspect input voltage and ensure it is within machine limits. Consult operator manual for machine specifications.", "page": 23 }
+  ]
+}

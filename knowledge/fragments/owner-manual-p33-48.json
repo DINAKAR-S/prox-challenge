@@ -1,0 +1,322 @@
+{
+  "dutyCycle": [],
+  "polarity": [
+    {"process": "MIG welding", "electrodeSocket": "", "groundSocket": "", "polarityName": "DCEP", "notes": "Ensure polarity is correct for operation: DCEP for MIG welding.", "page": 42},
+    {"process": "Flux-Cored self-shielded welding", "electrodeSocket": "", "groundSocket": "", "polarityName": "DCEN", "notes": "Ensure polarity is correct for operation: DCEN for Flux-Cored self-shielded welding.", "page": 42},
+    {"process": "MIG", "electrodeSocket": "", "groundSocket": "", "polarityName": "DCEP", "notes": "Check the polarity and ensure it is DCEP for MIG (troubleshooting porosity in weld metal).", "page": 43},
+    {"process": "Flux-Cored", "electrodeSocket": "", "groundSocket": "", "polarityName": "DCEN", "notes": "Check the polarity and ensure it is DCEN for Flux-Cored (troubleshooting porosity in weld metal).", "page": 43}
+  ],
+  "settings": [],
+  "troubleshooting": [
+    {
+      "symptom": "Wire Feed Motor Runs but Wire Does Not Feed Properly (MIG/Flux-Cored)",
+      "causes": ["Insufficient wire feed pressure.", "Incorrect wire feed roller size.", "Damaged MIG Gun, cable, or liner assembly.", "Feed Tensioner is too tight."],
+      "remedies": ["Increase wire feed pressure properly. Follow step 27 on page 17.", "Flip roll to correct size. Follow the Feed Roller instructions on page 12.", "Have a qualified technician inspect these parts and replace as necessary.", "Loosen Feed Tensioner so it applies only enough pressure to prevent continued spinning after the Gun Trigger is released."],
+      "page": 42
+    },
+    {
+      "symptom": "Wire Creates a Bird's Nest During Operation (MIG/Flux-Cored)",
+      "causes": ["Excess wire feed pressure.", "Incorrect Contact Tip size.", "MIG Gun Cable Connector not fully inserted into Wire Feed mechanism.", "Damaged liner."],
+      "remedies": ["Adjust wire feed pressure properly. Follow step 27 on page 17.", "Replace with the proper tip for wire used.", "Insert Gun Cable Connector properly. Follow steps 13 and 14 on page 13.", "Have a qualified technician inspect and repair/replace as necessary."],
+      "page": 42
+    },
+    {
+      "symptom": "Wire Stops During Welding (MIG/Flux-Cored)",
+      "causes": ["Gun cable is severely bent and Wire Feed mechanism cannot feed wire.", "Gun liner is clogged or worn.", "Gun liner is too small for welding wire being used.", "Wire is tangled on the spool.", "Wire is not making contact with Feed Rollers.", "Feed Roller is not making enough contact with wire or is crushing flux-cored wire."],
+      "remedies": ["Straighten Gun cable.", "Check gun liner for obstruction. Replace if necessary.", "Check that gun liner is correct size for wire.", "Check wire for cross winding or tangled spool.", "Check Feed Rollers and ensure correct groove for wire diameter is being used.", "Check Feed Tensioner and ensure it is set properly."],
+      "page": 42
+    },
+    {
+      "symptom": "Welding Arc Not Stable (MIG/Flux-Cored)",
+      "causes": ["Wire not feeding properly.", "Incorrect Contact Tip or liner size or excessive wear.", "Incorrect wire feed speed.", "Loose MIG Gun cable or ground cable.", "Damaged MIG Gun or loose connection within Gun.", "Incorrect polarity for process being run.", "Gas coverage may be insufficient or too high.", "Poor connection with workpiece."],
+      "remedies": ["See first Troubleshooting section above.", "Replace with the proper tip or liner size for wire used.", "Adjust wire feed speed to achieve a more stable arc.", "Check to ensure that all connections are tight.", "Have a qualified technician inspect and repair/replace as necessary.", "Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding.", "Ensure gas flow rate is set according to Settings Chart. Make sure MIG Gun Cable Connector is fully inserted into Wire Feed mechanism with no O-Rings exposed.", "Check the ground clamp connection to the workpiece and machine. Ensure the MIG Gun is properly secured."],
+      "page": 42
+    },
+    {
+      "symptom": "Weak Arc Strength (MIG/Flux-Cored)",
+      "causes": ["Incorrect line voltage.", "Improper gauge or length of cord.", "Not enough current."],
+      "remedies": ["Check the line voltage and, if insufficient, have a licensed electrician remedy the situation.", "Do not use an extension cord on this Welder. Use only one of the supplied power cords for this Welder or an identical replacement cord.", "Switch current to proper setting for metal thickness."],
+      "page": 42
+    },
+    {
+      "symptom": "Welder Does Not Function When Switched On (MIG/Flux-Cored)",
+      "causes": ["Tripped thermal protection device.", "Circuit supplies insufficient input voltage or amperage.", "Faulty or improperly connected Trigger.", "Machine is in low- or over-voltage protection.", "Machine is in the incorrect mode."],
+      "remedies": ["If a warning screen appears in the LCD Display window, Welder may have overheated and shut down. Stop and wait with the Power Switch ON for the Welder to cool. The Welder automatically returns to service after cooling off. Reduce duration or frequency of welding periods. Refer to Duty Cycle (Duration of Use) on page 19.", "Verify that the circuit is designed to supply the required input voltage and amperage as detailed on the Specifications table. If a warning screen appears, check the input voltage is within specified range.", "Ensure the gun connection is properly seated on machine. Qualified technician must check and secure/replace Trigger.", "Check input voltage and ensure it falls within the specified range. If correct, press Reset Button on back of machine.", "Ensure the correct process has been selected."],
+      "page": 43
+    },
+    {
+      "symptom": "LCD Display Does Not Light When Welder is Switched On (MIG/Flux-Cored)",
+      "causes": ["Unit is not connected to outlet properly.", "Outlet is unpowered.", "Plug does not have correct rating.", "Circuit breaker has tripped due to high input amperage.", "Input Power Cord is not seated properly."],
+      "remedies": ["Verify the voltage at the outlet and the connection to the outlet.", "Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting.", "Make sure installed plug is correct rating. See Specifications on page 7.", "Press Reset Button on back of machine to reset circuit breaker.", "Ensure the twist lock input Power Cord is fully secured."],
+      "page": 43
+    },
+    {
+      "symptom": "Wire Feeds, but Arc Does Not Ignite (MIG/Flux-Cored)",
+      "causes": ["Improper ground connection.", "Improperly sized Contact Tip.", "Excessively worn Contact Tip.", "Dirty Contact Tip."],
+      "remedies": ["Make certain that the workpiece is contacted properly by the Ground Clamp and that the workpiece is properly cleaned near the ground clamp and the welding location.", "Verify that Contact Tip is the proper size for welding wire. Replace if needed.", "Check that the hole in the tip is not deformed or enlarged. Replace if needed.", "Properly clean Contact Tip."],
+      "page": 43
+    },
+    {
+      "symptom": "Porosity in the Weld Metal (MIG/Flux-Cored)",
+      "causes": ["Shielding gas bottle is empty.", "Not enough or too much shielding gas.", "Dirty workpiece.", "Gun is being used too far away from workpiece.", "Polarity is incorrect for the application.", "Dirty welding wire is introducing contamination into the weld."],
+      "remedies": ["Check gas bottle and replenish as necessary.", "Check gas regulator to ensure proper flow.", "Clean workpiece down to bare metal.", "Check CTWD (contact tip to work distance) for the proper procedure.", "Check the polarity and ensure it is DCEP for MIG and DCEN for Flux-Cored.", "Make certain that welding wire is clean and free of rust and residues."],
+      "page": 43
+    },
+    {
+      "symptom": "Welder Does Not Function When Switched On (TIG/Stick)",
+      "causes": ["Tripped thermal protection device.", "Faulty or improperly connected Trigger.", "Ground Clamp not attached to workpiece.", "Shielding Gas not connected."],
+      "remedies": ["Reduce duration or frequency of welding periods to help reduce wear on the welder. Refer to Duty Cycle (Duration of Use) on page 29.", "Qualified technician must check and secure/replace Trigger.", "Attach Ground Clamp to workpiece.", "Connect shielding gas to Welder."],
+      "page": 44
+    },
+    {
+      "symptom": "LCD Display Does Not Light When Welder is Switched On (TIG/Stick)",
+      "causes": ["Unit is not connected to outlet properly.", "Outlet is unpowered."],
+      "remedies": ["Verify the voltage at the outlet and the connection to the outlet.", "Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting. Verify that the circuit is designed to supply the required input amperage as detailed in Specifications on page 7."],
+      "page": 44
+    },
+    {
+      "symptom": "Weak Arc Strength (TIG/Stick)",
+      "causes": ["Incorrect line voltage.", "Improper gauge or length of cord."],
+      "remedies": ["Check the line voltage and, if insufficient, have a licensed electrician remedy the situation.", "Do not use an extension cord on this Welder. Use only one of the supplied power cords for this Welder or an identical replacement cord."],
+      "page": 44
+    },
+    {
+      "symptom": "Welding Arc Not Stable (TIG/Stick)",
+      "causes": ["Loose electrode cable or ground cable.", "Damaged electrode holder or loose connection within electrode holder.", "Adjust current setting.", "Shielding gas getting low."],
+      "remedies": ["Check to ensure that all connections are tight.", "Have a qualified technician inspect and repair/replace as necessary.", "Make sure setting matches recommended setting on chart.", "Replace shielding gas cylinder."],
+      "page": 44
+    }
+  ],
+  "specs": [],
+  "safety": [
+    {"warning": "WARNING! TO PREVENT SERIOUS INJURY: Protective gear must be worn when using the Welder; minimum shade number 10 full face shield (or welding mask), ear protection, welding gloves, sleeves and apron, NIOSH-approved respirator, and fire resistant work clothes without pockets should be worn when welding. Light from the arc can cause permanent damage to the eyes and skin. Do not breathe arc fumes.", "page": 33},
+    {"warning": "WEAR ANSI-APPROVED SAFETY GOGGLES DURING THIS PROCEDURE. CAUTION! This test WILL damage the weld it is performed on. This test is ONLY an indicator of weld technique and is not intended to test working welds. (Strike Test)", "page": 34},
+    {"warning": "WARNING! TO PREVENT SERIOUS INJURY: Continue to wear ANSI-approved safety goggles and protective wear when cleaning a weld. Sparks or chips may fly when cleaning.", "page": 34},
+    {"warning": "WARNING! TO PREVENT SERIOUS INJURY, FIRE AND BURNS: Unplug the Welder, rest the tool on a heat-proof, electrically non-conductive surface, and allow all parts of the Welder to cool thoroughly before service.", "page": 41},
+    {"warning": "IMPORTANT! Be CERTAIN to shut off the Welder, disconnect it from power, and discharge the MIG Gun to ground before adjusting, cleaning, or repairing the unit.", "page": 42},
+    {"warning": "Follow all safety precautions whenever diagnosing or servicing the equipment.", "page": 42},
+    {"warning": "Follow all safety precautions whenever diagnosing or servicing the equipment.", "page": 43},
+    {"warning": "IMPORTANT! Be CERTAIN to shut off the Welder, disconnect it from power, and discharge the electrode to ground before adjusting, cleaning, or repairing the unit.", "page": 44},
+    {"warning": "Follow all safety precautions whenever diagnosing or servicing the equipment.", "page": 44}
+  ],
+  "errorCodes": [],
+  "parts": [
+    {"partNumber": "1", "description": "Right Cover", "page": 46},
+    {"partNumber": "2", "description": "Handle Base", "page": 46},
+    {"partNumber": "3", "description": "Handle Cover", "page": 46},
+    {"partNumber": "4", "description": "Hinge-Right", "page": 46},
+    {"partNumber": "5", "description": "Hinge-left", "page": 46},
+    {"partNumber": "6", "description": "Left Cover", "page": 46},
+    {"partNumber": "7", "description": "Latch", "page": 46},
+    {"partNumber": "8", "description": "Middle Bracket", "page": 46},
+    {"partNumber": "9", "description": "PFC Inductance", "page": 46},
+    {"partNumber": "10", "description": "Spool", "page": 46},
+    {"partNumber": "11", "description": "Remote Control PCB", "page": 46},
+    {"partNumber": "12", "description": "Wire Feeder", "page": 46},
+    {"partNumber": "13", "description": "Aviation Plug Wire", "page": 46},
+    {"partNumber": "14", "description": "Miller Plug Connector", "page": 46},
+    {"partNumber": "15", "description": "Protective Cover", "page": 46},
+    {"partNumber": "16", "description": "Display PCB", "page": 46},
+    {"partNumber": "17", "description": "Screen Cover", "page": 46},
+    {"partNumber": "18", "description": "Screen Frame", "page": 46},
+    {"partNumber": "19", "description": "MIG Welding Torch", "page": 46},
+    {"partNumber": "20", "description": "Front Handle Cover", "page": 46},
+    {"partNumber": "21", "description": "Front Panel", "page": 46},
+    {"partNumber": "22", "description": "Display", "page": 46},
+    {"partNumber": "23", "description": "Knob", "page": 46},
+    {"partNumber": "24", "description": "Knob", "page": 46},
+    {"partNumber": "25", "description": "Storage Door", "page": 46},
+    {"partNumber": "26", "description": "Switch", "page": 46},
+    {"partNumber": "27", "description": "American Air Fitting", "page": 46},
+    {"partNumber": "28", "description": "Air Connector", "page": 46},
+    {"partNumber": "29", "description": "Quick Connector", "page": 46},
+    {"partNumber": "30", "description": "Grounding Clamp Assembly", "page": 46},
+    {"partNumber": "31", "description": "Welding Clamp Assembly", "page": 46},
+    {"partNumber": "32", "description": "Polarity Cable", "page": 46},
+    {"partNumber": "33", "description": "Output Inductor", "page": 46},
+    {"partNumber": "34", "description": "Air Connector", "page": 46},
+    {"partNumber": "35", "description": "Solenoid Valve", "page": 46},
+    {"partNumber": "36", "description": "Bottom Housing", "page": 46},
+    {"partNumber": "37", "description": "Board Insulation Paper", "page": 46},
+    {"partNumber": "38", "description": "Main PCB", "page": 46},
+    {"partNumber": "39", "description": "Control PCB", "page": 46},
+    {"partNumber": "40", "description": "Fast Recovery Diode", "page": 46},
+    {"partNumber": "41", "description": "Metal Case Air Way", "page": 46},
+    {"partNumber": "42", "description": "Rectifier Radiator Support Bar", "page": 46},
+    {"partNumber": "43", "description": "Rectifier Radiator", "page": 46},
+    {"partNumber": "44", "description": "Fan", "page": 46},
+    {"partNumber": "45", "description": "Transformer", "page": 46},
+    {"partNumber": "46", "description": "IGBT", "page": 46},
+    {"partNumber": "47", "description": "Bridge Rectifier Heatsink", "page": 46},
+    {"partNumber": "48", "description": "Fast Recovery Diode", "page": 46},
+    {"partNumber": "49", "description": "IGBT Heat Sink Support Bar", "page": 46},
+    {"partNumber": "50", "description": "IGBT Radiator", "page": 46},
+    {"partNumber": "51", "description": "Bridge Rectifiers", "page": 46},
+    {"partNumber": "52", "description": "IGBT Radiator", "page": 46},
+    {"partNumber": "53", "description": "Fan", "page": 46},
+    {"partNumber": "54", "description": "Y-Type Threaded Tee", "page": 46},
+    {"partNumber": "55", "description": "120 VAC Power Cord", "page": 46},
+    {"partNumber": "56", "description": "Rear Panel", "page": 46},
+    {"partNumber": "57", "description": "Rear Handle Cover", "page": 46},
+    {"partNumber": "58", "description": "American Power Socket", "page": 46},
+    {"partNumber": "59", "description": "Overload Protector", "page": 46},
+    {"partNumber": "60", "description": "Rear Panel", "page": 46},
+    {"partNumber": "61", "description": "240 VAC Power Cord", "page": 46}
+  ],
+  "weldDiagnosis": [
+    {
+      "defect": "Inadequate Penetration (Wire/MIG)",
+      "appearance": "Weld does not penetrate the joint fully, just on the surface. Cross-section shows bead sitting on top with an unfused gap visible in the joint below.",
+      "causes": ["Not hot enough overall.", "Incorrect welding technique (CTWD too long, arc not on leading edge, wrong gun angle).", "Insufficient weld heat.", "Workpieces too thick/close.", "Insufficient weld material."],
+      "remedies": ["Increase weld current.", "Decrease travel speed.", "Use faster wire feed.", "Use shorter CTWD.", "Maintain 1/2\" or less CTWD, keep arc on leading edge of weld puddle, hold MIG Gun at proper angles.", "Reduce travel speed / increase weld current.", "Bevel thick workpieces, allow slight gap, weld in several passes.", "Increase wire feed speed."],
+      "page": 35
+    },
+    {
+      "defect": "Excess Penetration or Burn-Through (Wire/MIG)",
+      "appearance": "Weld droops on top and underneath, or falls through entirely, making a hole. Cross-section shows deep, sagging, rounded penetration well past the joint.",
+      "causes": ["Too hot overall.", "Workpiece overheating.", "Travel speed too slow.", "Excessive material at weld."],
+      "remedies": ["Decrease weld current.", "Increase travel speed.", "Use slower wire feed.", "Use longer CTWD.", "Reduce wire feed speed / decrease weld current.", "Increase travel speed and keep it steady.", "Reduce wire feed speed."],
+      "page": 36
+    },
+    {
+      "defect": "Bend at Joint (Wire/MIG)",
+      "appearance": "Workpiece plates appear angled/bent at the weld joint rather than flat/coplanar, seen in profile view.",
+      "causes": ["Improper clamping.", "Excessive heat."],
+      "remedies": ["Clamp workpieces securely.", "Make tack welds to hold workpieces.", "Weld a small portion and allow to cool before proceeding.", "Increase travel speed.", "Reduce wire feed speed."],
+      "page": 36
+    },
+    {
+      "defect": "Weld Not Adhering Properly (Wire/MIG)",
+      "appearance": "Gaps present between weld and previous bead or between weld and workpiece, visible at the upper shoulders and bottom tip of the weld profile.",
+      "causes": ["Incorrect welding technique.", "Insufficient weld heat.", "Dirty workpiece.", "Insufficient weld material.", "Workpiece gap too narrow."],
+      "remedies": ["Place stringer bead at correct place in joint.", "Adjust workpiece position or weld angle to permit proper welding to bottom of piece.", "Pause briefly at sides during weave bead.", "Keep arc on leading edge of weld puddle.", "Hold MIG Gun at proper angles.", "Increase current.", "Increase wire feed speed.", "Clean workpiece down to bare metal.", "Widen groove or increase bevel."],
+      "page": 36
+    },
+    {
+      "defect": "Porosity (Wire/MIG)",
+      "appearance": "Small cavities or holes in the bead — visible as scattered light/white speckled dots along and beside the rippled weld bead in top view.",
+      "causes": ["Incorrect polarity.", "Insufficient shielding gas (MIG only).", "Incorrect shielding gas (MIG only).", "Dirty workpiece or welding wire.", "Inconsistent travel speed.", "CTWD too long."],
+      "remedies": ["Check that polarity is set correctly for type of welding.", "Increase flow of gas, clean nozzle, maintain proper CTWD.", "Use shielding gas recommended by wire supplier.", "Clean workpiece down to bare metal; keep wire clean and free from oil, coatings, residues.", "Maintain steady travel speed.", "Reduce CTWD."],
+      "page": 37
+    },
+    {
+      "defect": "Excessive Spatter (Wire/MIG)",
+      "appearance": "Fine spatter is normal; grainy, large spatter is a problem — dense dark speckled granules scattered along both sides of the bead in top view.",
+      "causes": ["Dirty workpiece or welding wire.", "Incorrect polarity.", "Insufficient shielding gas (MIG only).", "Wire feeding too fast.", "CTWD too long."],
+      "remedies": ["Clean workpiece down to bare metal; keep wire clean and free from oil, coatings, residues.", "Check that polarity is set correctly for type of welding.", "Increase flow of gas, clean nozzle, maintain proper CTWD.", "Reduce wire feed speed.", "Reduce CTWD."],
+      "page": 37
+    },
+    {
+      "defect": "Crooked/Wavy Bead (Wire/MIG)",
+      "appearance": "Bead wanders/curves left and right along its length instead of running straight, seen in top view.",
+      "causes": ["Inaccurate welding.", "Inconsistent travel speed.", "CTWD too long."],
+      "remedies": ["Use two hands or rest hand on steady surface.", "Maintain steady travel speed.", "Reduce CTWD."],
+      "page": 37
+    },
+    {
+      "defect": "Burn-Through (Wire/MIG)",
+      "appearance": "Base material melts away, leaving a hole in the weld — visible as a distinct blown-out white/irregular hole in the bead track in top view.",
+      "causes": ["Workpiece overheating.", "Travel speed too slow.", "Excessive material at weld."],
+      "remedies": ["Reduce current and/or wire feed speed.", "Increase travel speed and ensure that travel speed is kept steady.", "Reduce wire feed speed."],
+      "page": 37
+    },
+    {
+      "defect": "Inadequate Penetration (Stick)",
+      "appearance": "Weld does not contact the joint fully, just on the surface. Cross-section shows bead sitting on top with an unfused gap in the joint below.",
+      "causes": ["Not hot enough overall.", "Incorrect welding technique.", "Insufficient weld heat.", "Workpieces too thick/close.", "Insufficient weld material."],
+      "remedies": ["Increase current.", "Weld more slowly.", "Keep arc on leading edge of weld puddle, hold torch at proper angles.", "Slow down so fill material has time to melt into the weld location; increase current.", "Bevel thick workpieces, allow slight gap, weld in several passes.", "Increase amount of fill material."],
+      "page": 38
+    },
+    {
+      "defect": "Excess Penetration or Burn-Through (Stick)",
+      "appearance": "Weld droops on top and underneath or falls through entirely, making a hole. Cross-section shows deep sagging penetration.",
+      "causes": ["Too hot overall.", "Workpiece overheating.", "Welding speed too slow."],
+      "remedies": ["Decrease current.", "Weld more quickly.", "Reduce current.", "Increase welding speed and ensure that welding speed is kept steady."],
+      "page": 38
+    },
+    {
+      "defect": "Current Too Low (Stick example weld)",
+      "appearance": "Photo shows a narrow, ropey, poorly-fused-looking bead with rough, piled texture, compared to the Good Weld reference bead.",
+      "causes": ["Current too low."],
+      "remedies": ["Increase the current."],
+      "page": 38
+    },
+    {
+      "defect": "Current Too High (Stick example weld)",
+      "appearance": "Photo shows a wide, flat, splashy bead with irregular wavy/frayed edges and a burned, washed-out look.",
+      "causes": ["Current too high."],
+      "remedies": ["Decrease the current."],
+      "page": 38
+    },
+    {
+      "defect": "Weld Speed Too Fast (Stick example weld)",
+      "appearance": "Photo shows a thin, narrow, widely-spaced ripple bead with understated build-up.",
+      "causes": ["Weld speed too fast."],
+      "remedies": ["Weld slower."],
+      "page": 38
+    },
+    {
+      "defect": "Weld Speed Too Slow (Stick example weld)",
+      "appearance": "Photo shows a wide, heavy bead with tightly bunched ripples and excess pooled material.",
+      "causes": ["Weld speed too slow."],
+      "remedies": ["Weld faster."],
+      "page": 38
+    },
+    {
+      "defect": "Arc Length Too Short (Stick example weld)",
+      "appearance": "Photo shows a narrow bead with small tight ripples and some irregular buildup.",
+      "causes": ["Arc length too short (electrode held too close to workpiece)."],
+      "remedies": ["Increase distance (electrode-to-workpiece)."],
+      "page": 38
+    },
+    {
+      "defect": "Arc Length Too Long (Stick example weld)",
+      "appearance": "Photo shows a wide, rough, spattery bead with an irregular blotchy surface texture.",
+      "causes": ["Arc length too long (electrode held too far from workpiece)."],
+      "remedies": ["Decrease distance (electrode-to-workpiece)."],
+      "page": 38
+    },
+    {
+      "defect": "Weld Not Adhering Properly (Stick)",
+      "appearance": "Gaps present between weld and previous bead or between weld and workpiece, at the upper shoulders and bottom tip of the weld profile.",
+      "causes": ["Incorrect welding technique.", "Insufficient weld heat.", "Dirty workpiece.", "Insufficient weld material.", "Distance between workpieces too large."],
+      "remedies": ["Place stringer bead at correct place in joint.", "Adjust workpiece position or weld angle to permit proper welding to bottom of piece.", "Keep arc on leading edge of weld puddle.", "Hold Electrode and fill material at proper angles.", "Increase current.", "Clean workpiece down to bare metal.", "Increase amount of fill material.", "Decrease distance and increase bevel."],
+      "page": 39
+    },
+    {
+      "defect": "Bend at Joint (Stick)",
+      "appearance": "Workpiece plates appear angled/bent at the weld joint rather than flat/coplanar, seen in profile view.",
+      "causes": ["Improper clamping.", "Excessive heat."],
+      "remedies": ["Clamp workpieces securely.", "Make tack welds to hold workpieces.", "Weld a small portion and allow to cool before proceeding.", "Increase weld speed."],
+      "page": 39
+    },
+    {
+      "defect": "Porosity (Stick)",
+      "appearance": "Small cavities or holes in the bead — scattered light/white speckled dots along and beside the rippled weld bead in top view.",
+      "causes": ["Dirty workpiece or fill material.", "Inconsistent welding speed."],
+      "remedies": ["Clean workpiece down to bare metal; keep fill material and Electrode clean and free from oil, coatings, residues.", "Maintain steady weld speed."],
+      "page": 40
+    },
+    {
+      "defect": "Crooked/Wavy Bead (Stick)",
+      "appearance": "Bead wanders/curves left and right along its length instead of running straight, seen in top view.",
+      "causes": ["Inaccurate welding.", "Inconsistent welding speed."],
+      "remedies": ["Use two hands or rest hand on steady surface.", "Maintain steady weld speed."],
+      "page": 40
+    },
+    {
+      "defect": "Excessive Spatter (Stick)",
+      "appearance": "Fine spatter is normal; grainy, large spatter is a problem — dense dark speckled granules scattered along both sides of the bead in top view.",
+      "causes": ["Dirty workpiece or fill material."],
+      "remedies": ["Clean workpiece down to bare metal; keep fill material and Electrode clean and free from oil, coatings, residues."],
+      "page": 40
+    },
+    {
+      "defect": "Burn-Through (Stick)",
+      "appearance": "Base material melts away, leaving a hole in the weld — a distinct blown-out white/irregular hole in the bead track in top view.",
+      "causes": ["Workpiece overheating.", "Welding speed too slow.", "Excessive material at weld."],
+      "remedies": ["Reduce current.", "Increase welding speed and ensure that welding speed is kept steady.", "Reduce amount of fill material."],
+      "page": 40
+    }
+  ]
+}
