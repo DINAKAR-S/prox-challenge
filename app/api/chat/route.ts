@@ -42,6 +42,7 @@ export async function POST(req: Request) {
           prompt: message,
           options: {
             systemPrompt: SYSTEM_PROMPT,
+            model: "claude-sonnet-5",
             mcpServers: { [SERVER_NAME]: server },
             allowedTools: [
               `mcp__${SERVER_NAME}__search_manual`,
