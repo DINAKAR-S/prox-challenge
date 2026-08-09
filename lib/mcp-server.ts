@@ -8,7 +8,21 @@ const ROOT = process.cwd();
 const KNOWLEDGE_DIR = path.join(ROOT, "knowledge");
 const INDEX_PATH = path.join(KNOWLEDGE_DIR, "index.json");
 const PAGES_DIR = path.join(KNOWLEDGE_DIR, "pages");
+const STRUCTURED_DIR = path.join(KNOWLEDGE_DIR, "structured");
 const MANUAL_PUBLIC_DIR = path.join(ROOT, "public", "manual");
+
+const STRUCTURED_CATEGORIES = [
+  "duty-cycle",
+  "polarity",
+  "settings",
+  "troubleshooting",
+  "specs",
+  "safety",
+  "error-codes",
+  "parts",
+  "weld-diagnosis",
+  "setup-steps",
+] as const;
 
 type IndexEntry = {
   page: number | string;
@@ -146,6 +160,35 @@ export function buildMcpServer(emit: (event: AgentEvent) => void) {
     }
   );
 
+  const lookupData = tool(
+    "lookup_data",
+    "Look up exact structured data (numbers, part numbers, codes) from the manual, e.g. duty " +
+      "cycles, polarity sockets, settings, specs, error codes, parts, weld defects, setup steps. " +
+      "Prefer this over search_manual when the user needs a precise value, not prose.",
+    {
+      category: z.enum(STRUCTURED_CATEGORIES).describe("Which structured data file to query"),
+      filter: z.string().optional().describe("Case-insensitive substring to filter entries by, e.g. 'MIG' or '240V'"),
+    },
+    async ({ category, filter }) => {
+      emit({ type: "tool_start", name: "lookup_data" });
+      let entries: unknown[];
+      try {
+        const raw = await readFile(path.join(STRUCTURED_DIR, `${category}.json`), "utf-8");
+        entries = JSON.parse(raw);
+      } catch {
+        return {
+          content: [
+            { type: "text" as const, text: `knowledge/structured/${category}.json hasn't been built yet.` },
+          ],
+        };
+      }
+      const matches = filter
+        ? entries.filter((e) => JSON.stringify(e).toLowerCase().includes(filter.toLowerCase()))
+        : entries;
+      return { content: [{ type: "text" as const, text: JSON.stringify(matches, null, 2) }] };
+    }
+  );
+
   const renderArtifact = tool(
     "render_artifact",
     "Render a self-contained interactive HTML artifact (calculator, flowchart, live diagram, " +
@@ -165,6 +208,6 @@ export function buildMcpServer(emit: (event: AgentEvent) => void) {
   return createSdkMcpServer({
     name: "welder-support",
     version: "1.0.0",
-    tools: [searchManual, showManualImage, renderArtifact],
+    tools: [searchManual, showManualImage, lookupData, renderArtifact],
   });
 }
