@@ -45,6 +45,7 @@ export async function POST(req: Request) {
             mcpServers: { [SERVER_NAME]: server },
             allowedTools: [
               `mcp__${SERVER_NAME}__search_manual`,
+              `mcp__${SERVER_NAME}__lookup_data`,
               `mcp__${SERVER_NAME}__show_manual_image`,
               `mcp__${SERVER_NAME}__render_artifact`,
             ],
