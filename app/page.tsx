@@ -53,6 +53,7 @@ export default function Home() {
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const recognitionRef = useRef<any>(null);
+  const abortRef = useRef<AbortController | null>(null);
 
   useEffect(() => {
     const SR = (window as any).SpeechRecognition ?? (window as any).webkitSpeechRecognition;
@@ -97,11 +98,15 @@ export default function Home() {
     setPhases(pickPhases(question));
     setMessages((m) => [...m, { role: "user", parts: [{ kind: "text", text: question }] }, { role: "assistant", parts: [] }]);
 
+    const controller = new AbortController();
+    abortRef.current = controller;
+
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: question, sessionId: sessionId.current }),
+        signal: controller.signal,
       });
       if (!res.body) throw new Error("No response stream from server");
 
@@ -165,19 +170,31 @@ export default function Home() {
         }
       }
     } catch (err) {
+      if (err instanceof DOMException && err.name === "AbortError") return;
       setStatus(null);
       setMessages((m) => [
         ...m,
         { role: "assistant", parts: [{ kind: "text", text: `Connection error: ${err instanceof Error ? err.message : String(err)}` }] },
       ]);
     } finally {
-      setBusy(false);
+      if (abortRef.current === controller) setBusy(false);
     }
   }
 
   function onSubmit(e: FormEvent) {
     e.preventDefault();
     send(input);
+  }
+
+  function resetConversation() {
+    abortRef.current?.abort();
+    abortRef.current = null;
+    setMessages([]);
+    sessionId.current = undefined;
+    setInput("");
+    if (textareaRef.current) textareaRef.current.style.height = "auto";
+    setBusy(false);
+    setStatus(null);
   }
 
   function onKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
@@ -200,12 +217,28 @@ export default function Home() {
     <div className="flex h-dvh flex-col bg-bg text-text">
       <header className="sticky top-0 z-10 border-b border-border/70 bg-bg/85 backdrop-blur">
         <div className={`flex items-center gap-3 px-4 py-3 ${COLUMN}`}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/product.webp" alt="Vulcan OmniPro 220" className="h-9 w-9 rounded-full object-cover ring-1 ring-border" />
-          <div>
-            <h1 className="text-sm font-semibold leading-tight text-text">Vulcan OmniPro 220</h1>
-            <p className="text-xs leading-tight text-muted">AI Support Agent</p>
-          </div>
+          <button
+            type="button"
+            onClick={resetConversation}
+            title="Back to home"
+            className="flex cursor-pointer items-center gap-3 rounded-xl px-1 py-1 -mx-1 transition duration-150 hover:bg-panel"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/product.webp" alt="Vulcan OmniPro 220" className="h-9 w-9 rounded-full object-cover ring-1 ring-border" />
+            <div className="text-left">
+              <h1 className="text-sm font-semibold leading-tight text-text">Vulcan OmniPro 220</h1>
+              <p className="text-xs leading-tight text-muted">AI Support Agent</p>
+            </div>
+          </button>
+          <button
+            type="button"
+            onClick={resetConversation}
+            title="New chat"
+            className="ml-auto flex shrink-0 cursor-pointer items-center gap-1.5 rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted transition duration-150 hover:bg-panel hover:text-text"
+          >
+            <span aria-hidden className="text-sm leading-none">+</span>
+            <span className="hidden sm:inline">New chat</span>
+          </button>
           <ThemeToggle />
         </div>
       </header>
@@ -421,7 +454,7 @@ function ThemeToggle() {
       type="button"
       onClick={toggle}
       title={dark ? "Switch to light theme" : "Switch to dark theme"}
-      className="ml-auto flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-base text-muted transition duration-200 hover:text-text"
+      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-base text-muted transition duration-200 hover:text-text"
     >
       {dark ? "☀️" : "🌙"}
     </button>
