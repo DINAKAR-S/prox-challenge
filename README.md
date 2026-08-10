@@ -4,7 +4,17 @@ A multimodal support agent for the [Vulcan OmniPro 220](https://www.harborfreigh
 
 Ask it anything a new owner would ask — duty cycles, polarity setup, porosity troubleshooting — and it answers with exact page-cited numbers, real manual images, and live-generated interactive diagrams and calculators.
 
-> **Hosted demo:** _coming shortly_ · **Video walkthrough:** _coming shortly_
+> **Hosted demo:** [prox-welder-agent.vercel.app](https://prox-welder-agent.vercel.app) · **Video walkthrough:** [demo/demo.mp4](demo/demo.mp4) (GitHub renders it inline)
+
+![Hero](docs/screenshots/hero.png)
+
+| Exact page-cited answers | Real manual pages surfaced in chat |
+|---|---|
+| ![Exact answer](docs/screenshots/exact-answer.png) | ![Manual image card](docs/screenshots/manual-image-card.png) |
+
+**Live-generated interactive artifacts** — the agent wrote this duty-cycle calculator on the fly, plotting the manual's exact nameplate points and labeling the fitted curve as an estimate:
+
+![Duty cycle calculator](docs/screenshots/calculator-artifact.png)
 
 ---
 
