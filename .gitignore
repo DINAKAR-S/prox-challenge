@@ -5,3 +5,5 @@ out/
 *.tsbuildinfo
 npm-debug.log*
 .claude/
+
+.vercel

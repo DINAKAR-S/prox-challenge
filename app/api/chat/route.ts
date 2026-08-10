@@ -3,6 +3,7 @@ import { AgentEvent, buildMcpServer } from "@/lib/mcp-server";
 import { SYSTEM_PROMPT } from "@/lib/system-prompt";
 
 export const runtime = "nodejs";
+export const maxDuration = 300;
 
 const SERVER_NAME = "welder-support";
 
