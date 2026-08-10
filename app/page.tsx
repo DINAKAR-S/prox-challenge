@@ -49,7 +49,6 @@ export default function Home() {
   const [phases, setPhases] = useState<string[]>(GENERIC_PHASES);
   const [micSupported, setMicSupported] = useState(false);
   const [listening, setListening] = useState(false);
-  const sessionId = useRef<string | undefined>(undefined);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
   const recognitionRef = useRef<any>(null);
@@ -91,6 +90,16 @@ export default function Home() {
     const question = text.trim();
     if (!question || busy) return;
 
+    // ponytail: serverless has no shared session state, so replay recent
+    // history as plain text instead of a session id. Text parts only —
+    // images/artifacts don't round-trip through JSON as prompt text.
+    const history = messages
+      .map((m) => ({
+        role: m.role,
+        content: m.parts.flatMap((p) => (p.kind === "text" ? [p.text] : [])).join("\n"),
+      }))
+      .filter((h) => h.content.trim());
+
     setInput("");
     if (textareaRef.current) textareaRef.current.style.height = "auto";
     setBusy(true);
@@ -105,7 +114,7 @@ export default function Home() {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: question, sessionId: sessionId.current }),
+        body: JSON.stringify({ message: question, history }),
         signal: controller.signal,
       });
       if (!res.body) throw new Error("No response stream from server");
@@ -139,9 +148,7 @@ export default function Home() {
           const event = eventLine.slice("event: ".length);
           const data = JSON.parse(dataLine.slice("data: ".length));
 
-          if (event === "session") {
-            sessionId.current = data.sessionId;
-          } else if (event === "tool_start") {
+          if (event === "tool_start") {
             setStatus(TOOL_LABELS[data.name] ?? "Working on it…");
           } else if (event === "text") {
             setStatus(null);
@@ -190,7 +197,6 @@ export default function Home() {
     abortRef.current?.abort();
     abortRef.current = null;
     setMessages([]);
-    sessionId.current = undefined;
     setInput("");
     if (textareaRef.current) textareaRef.current.style.height = "auto";
     setBusy(false);
@@ -334,6 +340,21 @@ export default function Home() {
           )}
           <p className="mt-2 text-center text-[11px] text-muted">
             Answers cite the Vulcan OmniPro 220 manual. Always verify safety-critical settings.
+          </p>
+          <p className="mt-1 text-center text-[11px] text-muted">
+            Built by{" "}
+            <a
+              href="https://github.com/DINAKAR-S"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition duration-150 hover:text-accent"
+            >
+              Dinakar Selvakumar
+            </a>{" "}
+            ·{" "}
+            <a href="mailto:dinakars2003@gmail.com" className="transition duration-150 hover:text-accent">
+              dinakars2003@gmail.com
+            </a>
           </p>
         </div>
       </footer>

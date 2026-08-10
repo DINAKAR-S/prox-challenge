@@ -7,14 +7,28 @@ export const maxDuration = 300;
 
 const SERVER_NAME = "welder-support";
 
+type HistoryEntry = { role: "user" | "assistant"; content: string };
+
+// ponytail: serverless instances don't share SDK session state, so we can't
+// `resume` a session id. Instead replay recent history as plain text in the
+// prompt — cheap, stateless, works identically local and on Vercel.
+function buildPrompt(message: string, history?: HistoryEntry[]): string {
+  if (!history || history.length === 0) return message;
+  const transcript = history
+    .slice(-8)
+    .map((h) => `${h.role === "user" ? "User" : "Assistant"}: ${h.content.slice(0, 2000)}`)
+    .join("\n");
+  return `Previous conversation:\n${transcript}\n\nUser's new message: ${message}`;
+}
+
 export async function POST(req: Request) {
-  let body: { message?: string; sessionId?: string };
+  let body: { message?: string; history?: HistoryEntry[] };
   try {
     body = await req.json();
   } catch {
     return new Response("Invalid JSON body", { status: 400 });
   }
-  const { message, sessionId } = body;
+  const { message, history } = body;
   if (!message || typeof message !== "string") {
     return new Response("Missing 'message' string", { status: 400 });
   }
@@ -37,10 +51,9 @@ export async function POST(req: Request) {
 
       try {
         const server = buildMcpServer(emit);
-        let sessionSent = false;
 
         for await (const msg of query({
-          prompt: message,
+          prompt: buildPrompt(message, history),
           options: {
             systemPrompt: SYSTEM_PROMPT,
             model: "claude-sonnet-5",
@@ -54,16 +67,10 @@ export async function POST(req: Request) {
             ],
             permissionMode: "dontAsk",
             includePartialMessages: true,
-            resume: sessionId || undefined,
             env: process.env as Record<string, string>,
           },
           // eslint-disable-next-line @typescript-eslint/no-explicit-any
         }) as any) {
-          if (!sessionSent && msg.session_id) {
-            send("session", { sessionId: msg.session_id });
-            sessionSent = true;
-          }
-
           if (msg.type === "stream_event") {
             const event = msg.event;
             if (event?.type === "content_block_delta" && event.delta?.type === "text_delta") {
